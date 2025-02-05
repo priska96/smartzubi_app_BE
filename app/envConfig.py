@@ -11,4 +11,4 @@ class Config:
     ENVIRONMENT = "dev"#environment
     DB_HOSTNAME = os.environ.get('DB_HOSTNAME') #os.getenv("DB_HOSTNAME") 
     DB_PASSWORD = os.environ.get('DB_PASSWORD') #os.getenv("DB_PASSWORD")
-    DATABASE_URL = "postgresql"+os.environ.get('DATABASE_URL',"postgresql://"+ DB_HOSTNAME+":"+DB_PASSWORD+"@localhost/postgres").split("://")[1]
+    DATABASE_URL = "postgresql://"+os.environ.get('DATABASE_URL',"postgresql://"+ DB_HOSTNAME+":"+DB_PASSWORD+"@localhost/postgres").split("://")[1]
