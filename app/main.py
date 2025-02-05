@@ -95,5 +95,4 @@ def read_root():
 # NOTE: this needs to be the last route defined b/c it's a catch all route
 @app.get("/{rest_of_path:path}")
 async def react_app(req: Request, rest_of_path: str):
-    print("get tmepa")
-    return {"request": req} #templates.TemplateResponse("index.html", {"request": req})
+    return {"request": "Hello this is the REST API for SmartZubi"} #templates.TemplateResponse("index.html", {"request": req})
