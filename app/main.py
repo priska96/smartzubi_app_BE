@@ -16,10 +16,10 @@ app = FastAPI()
 
 # Sets the templates directory to the `build` folder from `npm run build`
 # this is where you'll find the index.html file.
-templates = Jinja2Templates(directory="../frontend/dist")
+# templates = Jinja2Templates(directory="../frontend/dist")
 
 # Mounts the `static` folder within the `build` folder to the `/static` route.
-app.mount("/assets", StaticFiles(directory="../frontend/dist/assets"), name="assets")
+# app.mount("/assets", StaticFiles(directory="../frontend/dist/assets"), name="assets")
 
 origins = [
     "http://localhost:5173",
@@ -94,4 +94,4 @@ def read_root():
 @app.get("/{rest_of_path:path}")
 async def react_app(req: Request, rest_of_path: str):
     print("get tmepa")
-    return templates.TemplateResponse("index.html", {"request": req})
+    return {"request": req} #templates.TemplateResponse("index.html", {"request": req})
