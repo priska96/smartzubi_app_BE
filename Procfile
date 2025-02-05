@@ -1,1 +1,1 @@
-web: fastapi run --workers 4 app/main.py
+web: uvicorn app/main:app --workers 4
