@@ -1,0 +1,598 @@
+{
+  "title": "Menu und Wein Quiz",
+  "score": 30,
+  "google_drive_link": "https://drive.google.com/file/d/1OfBiXGPYFV1tNg45Gp3G-NyJeujAYqS-/view",
+  "questions": [
+    {
+      "title": "Frage 1",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Aus welchen Gängen könnte ein 5-Gang-Menu bestehen? Mit welchem Gang würden Sie bei der Speisenzusammenstellung beginnen?",
+      "hint": null,
+      "solution_hint": "Beginnen Sie mit dem Hauptgang, um die anderen Gänge darauf abzustimmen.",
+      "answers": [
+        {
+          "answer": "Kalte Vorspeise - Suppe - Warme Vorspeise - Hauptgang - Dessert",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Hauptgang - Suppe - Kalte Vorspeise - Dessert - Warme Vorspeise",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Suppe - Dessert - Kalte Vorspeise - Hauptgang - Warme Vorspeise",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Warme Vorspeise - Hauptgang - Dessert - Kalte Vorspeise - Suppe",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": null
+    },
+    {
+      "title": "Frage 2",
+      "points": 4,
+      "type": "multiple_choice",
+      "question": "Welche fachlichen Fehler können Sie in dem Menu entdecken?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Wiederholung Lauch (2-mal): Suppe und Gemüse zum Hauptgang.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Zu viel Sahne (4-mal) und dadurch auch schwer: Suppe, Fischgericht, Hauptgang und Dessert.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Farblich harmonisch abgestimmt.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Farblose Zusammenstellung: Bis auf die Rote Grütze ist alles sehr hell.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Fehler in der Reihenfolge: Beim Hauptgang müssen die „Kartoffelkroketten“ nach dem Gemüse genannt werden.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ],
+      "situation": "Ein Gast wünscht sich folgendes 4-Gang-Menu:\nLauchcremesuppe\n***\nPochierte Schollenfilets in Weißweinsauce\n***\nSchweinemedaillons, Kartoffelkroketten, Lauchgemüse in Rahm\n***\nRote Grütze mit Vanillesauce"
+    },
+    {
+      "title": "Frage 3",
+      "points": 2,
+      "type": "multiple_choice",
+      "question": "Warum sollte bei der Zusammenstellung eines Menus auch die Jahreszeit berücksichtigt werden?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Viele Rohstoffe sind zu bestimmten Zeiten (z. B. Erntezeit bei Gemüse) am schmackhaftesten und auch noch preiswerter.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "In der warmen Jahreszeit werden eher leichtere Gerichte als im Winter verlangt.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Die Jahreszeit hat keinen Einfluss auf die Zusammenstellung eines Menus.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Ein Gast wünscht sich folgendes 4-Gang-Menu:\nLauchcremesuppe\n***\nPochierte Schollenfilets in Weißweinsauce\n***\nSchweinemedaillons, Kartoffelkroketten, Lauchgemüse in Rahm\n***\nRote Grütze mit Vanillesauce"
+    },
+    {
+      "title": "Frage 4",
+      "points": 6,
+      "type": "multiple_choice",
+      "question": "Nennen Sie 6 Beispiele für saisonbedingte Rohstoffe und deren Zeiträume.",
+      "hint": "Beziehen Sie sich auf bekannte Zeiträume wie Spargelzeit oder Muschelmonate.",
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Spargel: April bis Juni; Ende des Spargelstechens ist traditionell St. Johanni am 24. Juni",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Erdbeeren: Mai und Juni",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Karpfen: Von September bis April; beliebtes Gericht zu Silvester",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Lamm: Besonders beliebt zur Osterzeit",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Muscheln: Von September bis April (in den Monaten mit \"r\")",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Pflaumen: Von Mitte August bis Mitte September",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Kirschen: Juni bis August; Sauerkirschen bis September",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Tomaten: Januar bis März",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Kartoffeln: Ganzjährig ohne Saison",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Bananen: Dezember bis Februar",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Ein Gast wünscht sich folgendes 4-Gang-Menu:\nLauchcremesuppe\n***\nPochierte Schollenfilets in Weißweinsauce\n***\nSchweinemedaillons, Kartoffelkroketten, Lauchgemüse in Rahm\n***\nRote Grütze mit Vanillesauce"
+    },
+    {
+      "title": "Frage 5",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Ein Gast wünscht zu den Schollenfilets einen kräftigen Rotwein. Wie sehen Sie die Wahl aus fachlicher Sicht?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Ein kräftiger Rotwein passt hervorragend zu Schollenfilets.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein Rotwein passt nicht zu den zarten Schollenfilets. Hier wäre ein leichter Weißwein zu empfehlen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Rotwein ist generell eine gute Wahl für Fischgerichte.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Der Gast sollte lieber Bier trinken.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Ein Gast wünscht sich folgendes 4-Gang-Menu:\nLauchcremesuppe\n***\nPochierte Schollenfilets in Weißweinsauce\n***\nSchweinemedaillons, Kartoffelkroketten, Lauchgemüse in Rahm\n***\nRote Grütze mit Vanillesauce"
+    },
+    {
+      "title": "Frage 6",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Das Menu soll durch ein Sorbet erweitert werden. Vor welchem Gang wird es gereicht?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Das Sorbet wird vor der kalten Vorspeise gereicht.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Das Sorbet wird vor dem Hauptgang gereicht.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Das Sorbet wird nach dem Dessert gereicht.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Das Sorbet wird zwischen der Suppe und der warmen Vorspeise gereicht.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Ein Gast wünscht sich folgendes 4-Gang-Menu:\nLauchcremesuppe\n***\nPochierte Schollenfilets in Weißweinsauce\n***\nSchweinemedaillons, Kartoffelkroketten, Lauchgemüse in Rahm\n***\nRote Grütze mit Vanillesauce"
+    },
+    {
+      "title": "Frage 7",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "In welcher Reihenfolge sind die Bestandteile eines Ganges im Menu zu nennen?",
+      "hint": null,
+      "solution_hint": "Die Reihenfolge folgt einem logischen Aufbau vom Hauptrohstoff bis zur Beilage.",
+      "answers": [
+        {
+          "answer": "Hauptrohstoff, Sauce, Beilage, Garnitur, Gemüse (dann evtl. auch Salat oder kalte Beilage)",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Hauptrohstoff, Garnitur, Sauce, Gemüse, Beilage (dann evtl. auch Salat oder kalte Beilage)",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Beilage, Hauptrohstoff, Sauce, Gemüse, Garnitur (dann evtl. auch Salat oder kalte Beilage)",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Sauce, Hauptrohstoff, Gemüse, Beilage, Garnitur (dann evtl. auch Salat oder kalte Beilage)",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": null
+    },
+    {
+      "title": "Frage 8",
+      "points": 2,
+      "type": "multiple_choice",
+      "question": "Welche Fehler finden Sie in der Beschreibung 'Forelle à la meunière mit Kopfsalatherzen, Salzkartoffeln'?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Die Sprachen sind vermischt.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Fehler in der Reihenfolge. Der Salat ist nach den Kartoffeln zu nennen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Es gibt keine Fehler in der Beschreibung.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Die Kartoffeln sollten nicht aufgeführt werden.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Sie lesen auf einer Speisekarte: Forelle à la meunière mit Kopfsalatherzen, Salzkartoffeln"
+    },
+    {
+      "title": "Frage 9",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Wie lautet die korrekte Schreibweise?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Forelle nach Müllerinart mit Salzkartoffeln, Kopfsalatherzen",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Forelle à la meunière mit Salzkartoffeln und Kopfsalatherzen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Forelle Müllerin mit Kartoffeln und Salat",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Forelle nach Art des Müllers mit Beilage",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Sie lesen auf einer Speisekarte: Forelle à la meunière mit Kopfsalatherzen, Salzkartoffeln"
+    },
+    {
+      "title": "Frage 10",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Was ist ein Aperitif?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Ein Getränk, das vor dem Essen serviert wird, um den Appetit anzuregen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Ein Dessertwein, der nach dem Essen gereicht wird.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein Digestif, der bei Verdauungsproblemen hilft.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein alkoholischer Cocktail für die Party.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": null
+    },
+    {
+      "title": "Frage 11",
+      "points": 5,
+      "type": "multiple_choice",
+      "question": "Welche Grundregeln gibt es bei der Abfolge von Weinen innerhalb eines Menus?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Weißwein vor Rotwein",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Leichte Weine vor schweren Weinen",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Junge Weine vor alten Weinen",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Trockene Weine vor süßen Weinen",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Wein vor Schaumwein",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Süße Weine vor trockenen Weinen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Rotwein vor Weißwein",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Schwere Weine vor leichten Weinen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Stillwein vor Schaumwein",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": null
+    },
+    {
+      "title": "Frage 12",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welchen Wein würden Sie Frau Kuwel zum Wildbraten empfehlen? Begründen Sie Ihre Wahl.",
+      "hint": null,
+      "solution_hint": "Bei dem Wildbraten handelt es sichum ein „schweres, gehaltvolles“ Essen. Entsprechend sollte der Wein dazu passen.Ein gehaltvoller Rotwein passt hervorragend zu einem kräftigen Gericht wie Wildbraten.",
+      "answers": [
+        {
+          "answer": "Ein gehaltvoller Rotwein",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Ein leichter Weißwein",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein trockener Rosé",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein süßer Dessertwein",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Herr und Frau Kuwel haben sich vor dem Theater einen Tisch in Ihrem Restaurant bestellt.\nAus zeitlichen Gründen möchten beide nur einen Hauptgang.\nFrau Kuwel hat sich als Hauptgang einen Wildbraten mit Rotkohl und Kartoffelkroketten bestellt. Ihr Mann, Siegurd Kuwel, hat nicht so großen Hunger. Er möchte einen Scampispieß mit Reis. Beide Gäste wünschen je eine Karaffe Wein."
+    },
+    {
+      "title": "Frage 13",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welchen Wein würden Sie Herrn Kuwel zu seinem Scampispieß empfehlen? Begründen Sie Ihre Wahl.",
+      "hint": null,
+      "solution_hint": "Blume und Bukett sollten fein ausgeprägt sein, da dies sehr gut zum feinen Geschmack der Scampi passen würde. Ein leichter Weißwein unterstreicht die zarten Aromen der Scampi.",
+      "answers": [
+        {
+          "answer": "Ein leichter Weißwein",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Ein kräftiger Rotwein",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein trockener Schaumwein",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein süßer Likörwein",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Herr und Frau Kuwel haben sich vor dem Theater einen Tisch in Ihrem Restaurant bestellt.\nAus zeitlichen Gründen möchten beide nur einen Hauptgang.\nFrau Kuwel hat sich als Hauptgang einen Wildbraten mit Rotkohl und Kartoffelkroketten bestellt. Ihr Mann, Siegurd Kuwel, hat nicht so großen Hunger. Er möchte einen Scampispieß mit Reis. Beide Gäste wünschen je eine Karaffe Wein."
+    },
+    {
+      "title": "Frage 14",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Frau Kuwel möchte nach dem Essen einen Trester. Was ist darunter zu verstehen?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Ein italienischer Weinbrand aus Weinresten",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Ein Cocktail aus Wein und Fruchtsaft",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Eine Nachspeise aus Schokolade",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein Magenbitter für die Verdauung",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Herr und Frau Kuwel haben sich vor dem Theater einen Tisch in Ihrem Restaurant bestellt.\nAus zeitlichen Gründen möchten beide nur einen Hauptgang.\nFrau Kuwel hat sich als Hauptgang einen Wildbraten mit Rotkohl und Kartoffelkroketten bestellt. Ihr Mann, Siegurd Kuwel, hat nicht so großen Hunger. Er möchte einen Scampispieß mit Reis. Beide Gäste wünschen je eine Karaffe Wein."
+    },
+    {
+      "title": "Frage 15",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Herr Kuwel wünscht einen Espresso Macchiato. Was ist das?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Ein Espresso mit einem kleinen Schuss Milchschaum",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Ein Espresso mit einer Kugel Vanilleeis",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein Espresso mit einem Löffel Zucker und Sahne",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ein doppelter Espresso ohne Milch",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ],
+      "situation": "Herr und Frau Kuwel haben sich vor dem Theater einen Tisch in Ihrem Restaurant bestellt.\nAus zeitlichen Gründen möchten beide nur einen Hauptgang.\nFrau Kuwel hat sich als Hauptgang einen Wildbraten mit Rotkohl und Kartoffelkroketten bestellt. Ihr Mann, Siegurd Kuwel, hat nicht so großen Hunger. Er möchte einen Scampispieß mit Reis. Beide Gäste wünschen je eine Karaffe Wein."
+    }
+  ]
+}

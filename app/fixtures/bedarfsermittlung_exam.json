@@ -1,0 +1,472 @@
+{
+  "title": "Bedarfsermittlung und Lagerhaltung Quiz - Teil 1",
+  "score": 27,
+  "google_drive_link": "https://drive.google.com/file/d/1OfBiXGPYFV1tNg45Gp3G-NyJeujAYqS-/view",
+  "questions": [
+    {
+      "title": "Frage 1",
+      "points": 1,
+      "type": "calculation",
+      "question": "Wie hoch ist der durchschnittliche Lagerbestand? Rechnen Sie auf der Grundlage von 12 Monatsendwerten.",
+      "situation": "Eine Lagerkartei weist folgende Werte auf: Datum; Zugang; Abgang; Bestand 01.01. ; 58; ; ...",
+      "situation_media": "/mnt/data/exam_table_page_12.png",
+      "hint": "Verwenden Sie die Formel zur Berechnung des durchschnittlichen Lagerbestands.",
+      "solution_hint": "\\[ \\text{Durchschnittlicher Lagerbestand} = \\frac{\\text{Anfangsbestand} + 12 \\cdot \\text{Monatsendbestände}}{13} \\]",
+      "answers": [
+        {
+          "answer": "64,31",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 2",
+      "points": 1,
+      "type": "calculation",
+      "question": "Wie hoch ist die durchschnittliche Lagerdauer?",
+      "situation": "Eine Lagerkartei weist folgende Werte auf: Datum; Zugang; Abgang; Bestand 01.01. ; 58; ; ...",
+      "situation_media": "/mnt/data/exam_table_page_12.png",
+      "hint": "Nutzen Sie die Formel zur Berechnung der durchschnittlichen Lagerdauer.",
+      "solution_hint": "\\[ \\text{Durchschnittliche Lagerdauer} = \\frac{360 \\text{ Tage}}{\\text{Umschlaghäufigkeit}} \\]",
+      "answers": [
+        {
+          "answer": "124,57 Tage",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 3",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Eine Lieferung mit Erdbeermarmelade ist am 05.06. bei Ihnen angekommen. 5 Wochen später entdecken Sie, dass sich in den Gläsern Kirschmarmelade befindet. Die Gläser wurden falsch etikettiert. Wann müssen Sie den Mangel rügen?",
+      "situation": null,
+      "situation_media": null,
+      "hint": "Berücksichtigen Sie den Unterschied zwischen einem offenen und einem versteckten Mangel.",
+      "solution_hint": "Ein versteckter Mangel muss unverzüglich nach Entdeckung gerügt werden.",
+      "answers": [
+        {
+          "answer": "Unverzüglich nach Entdeckung des Mangels muss gerügt werden.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "6 Monate nach dem Kauf muss gerügt werden.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Nach Ablauf der Gewährleistungsfrist muss gerügt werden.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 4",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Beim Wareneingang werden 100 Weinflaschen nicht erfasst. Welche Auswirkungen hat das?",
+      "situation": null,
+      "situation_media": null,
+      "hint": "Denken Sie an die Rolle des Warenwirtschaftssystems und den Bestellprozess.",
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Es entstehen automatisch Stornos im System.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Der gespeicherte Lagerbestand stimmt nicht mit dem tatsächlichen Lagerbestand überein. Es könnte somit eine unnötige Bestellung vom Warenwirtschaftssystem veranlasst werden.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Die Lagerbestände werden automatisch korrigiert.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Es hat keine Auswirkungen, da die Mengen manuell angepasst werden.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 5",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie werden aufgefordert, ein neues Passwort im Warenwirtschaftssystem einzurichten. Welches wäre geeignet?",
+      "situation": null,
+      "situation_media": null,
+      "hint": "Das Passwort sollte sicher und schwer zu erraten sein.",
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Eine Kombination aus Zahlen, Buchstaben und Sonderzeichen",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Ihr Nachname, da leicht zu merken",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ihr Geburtsdatum",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ihr Vorname, da ein persönlicher Bezug besteht",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 6",
+      "points": 5,
+      "type": "multiple_choice",
+      "question": "Wo können Sie Informationen über andere Lieferanten bekommen?",
+      "situation": "Die Einkaufskosten von Reinigungsmitteln sind gestiegen. Neue Lieferanten werden gesucht.",
+      "situation_media": null,
+      "hint": "Denken Sie an typische Informationsquellen im Gastronomiebereich.",
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Fachmessen",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Vertreterbesuche",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Prospekte und Fachzeitschriften",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Fachmessen, Vertreterbesuche, Prospekte und Fachzeitschriften",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Fachmessen, Vertreterbesuche, Prospekte und Fachzeitschriften",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Privatkundenbewertungen im Internet",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Interne Lagermitarbeiter befragen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 7",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Was bedeutet der Vermerk \"freibleibend\" der Firma Müller GmbH auf einem Angebot?",
+      "situation": "Die Einkaufskosten von Reinigungsmitteln für den Restaurantbereich sind in der letzten Zeit stark gestiegen.",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Mit dieser Freizeichnungsklausel schließt die Firma Müller GmbH eine rechtliche Bindung an das Angebot aus.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Das Angebot muss innerhalb von 3 Tagen angenommen werden.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 8",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Es wird überlegt, sich einer Einkaufsgemeinschaft anzuschließen. Was bedeutet das und welche Vorteile entstehen dadurch?",
+      "situation": "Die Einkaufskosten von Reinigungsmitteln für den Restaurantbereich sind in der letzten Zeit stark gestiegen.",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Eine Einkaufsgemeinschaft ist ein freiwilliger Zusammenschluss von Unternehmen, um bessere Konditionen beim Einkauf zu erhalten. Vorteile: Bessere Preise, bessere Lieferungs- und Zahlungsbedingungen, Unterstützung von Werbemaßnahmen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Ein verpflichtender Zusammenschluss, der alle Beteiligten bindet.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 9",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Auf eine Anfrage an einen Lieferanten über 100 Tischtücher erhalten Sie ein Angebot. Ist dadurch ein Kaufvertrag zustande gekommen?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": "Nein, ein Kaufvertrag entsteht erst durch Annahme des Angebots.",
+      "answers": [
+        {
+          "answer": "Nein, das Angebot muss noch angenommen werden.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Ja, durch das Angebot wurde der Vertrag geschlossen.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 10",
+      "points": 1,
+      "type": "calculation",
+      "question": "Sie erhalten folgendes Angebot für Kopierpapier: 4 Kartons mit je 10 Pack Inhalt, Listeneinkaufspreis netto je Karton: 42,00 €, Rabatt: 30 %, Skonto bei Zahlung innerhalb von 14 Tagen: 3 %, Fracht: 4,50 € pro Karton. Wie hoch ist der Bezugspreis für die gesamte Lieferung bei Zahlung innerhalb von 10 Tagen?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": "Berechnung: \n1. Listeneinkaufspreis: 42 € x 4 = 168 €\n2. Rabatt: 168 € x 30 % = 50,40 € \u2192 Zieleinkaufspreis: 117,60 €\n3. Skonto: 117,60 € x 3 % = 3,53 € \u2192 Bareinkaufspreis: 114,07 €\n4. Fracht: 4,50 € x 4 = 18,00 €\n5. Bezugspreis: 114,07 € + 18,00 € = 132,07 €",
+      "answers": [
+        {
+          "answer": "132,07 €",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 11",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Was ist unter \"halbbarer Zahlung\" zu verstehen? Nennen Sie 3 Beispiele.",
+      "situation": null,
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Eine Zahlung, bei der nur der Empfänger ein Konto benötigt, z.B. zahlt der Zahlende bar auf ein Konto des Zahlungsempfängers Beispiele: Barscheck, Zahlschein, Nachnahme.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Eine Zahlung, die in zwei Raten erfolgt.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 12",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Was ist das besondere Merkmal bei einem Verrechnungsscheck?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Ein Verrechnungsscheck (V-Scheck) ist ein Scheck, der von der bezogenen Bank nicht bar an den Inhaber ausgezahlt werden darf. Er wird in der Regel über ein Girokonto abgerechnet. So kann der Zahlungsweg nachverfolgt werden.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Der Scheck wird immer direkt bar ausgezahlt.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 13",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Was ist der Zweck der Inventur? 1 richtige Antwort",
+      "situation": null,
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Sie ist eine wichtige Grundlage für den Jahresabschluss eines Unternehmens.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Sie gibt Aufschlüsse über die Höhe des Meldebestandes.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Sie entscheidet über die Konditionen bei Bankkrediten.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Sie wird benötigt, um \"Renner\" im Sortiment auszumachen.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 14",
+      "points": 6,
+      "type": "ordering",
+      "question": "Bringen Sie die Arbeitsschritte einer Inventur in die richtige Reihenfolge.",
+      "situation": null,
+      "hint": "Überlegen Sie sich die logische Abfolge der Schritte von der Erstellung der Belege bis zur Bestandskorrektur.",
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Erstellung der Inventurbelege.",
+          "correct": true,
+          "correct_order": 1,
+          "points": 1
+        },
+        {
+          "answer": "Verteilung der Inventurbelege an die Mitarbeiter/innen.",
+          "correct": true,
+          "correct_order": 2,
+          "points": 1
+        },
+        {
+          "answer": "Zählen, Messen, Wiegen.",
+          "correct": true,
+          "correct_order": 3,
+          "points": 1
+        },
+        {
+          "answer": "Eintragung der Ergebnisse in die Inventurbelege.",
+          "correct": true,
+          "correct_order": 4,
+          "points": 1
+        },
+        {
+          "answer": "Speichern der Inventurergebnisse im Warenwirtschaftsprogramm.",
+          "correct": true,
+          "correct_order": 5,
+          "points": 1
+        },
+        {
+          "answer": "Vornehmen von Bestandskorrekturen bei Inventurdifferenzen.",
+          "correct": true,
+          "correct_order": 6,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 15",
+      "points": 4,
+      "type": "multiple_choice",
+      "question": "Ordnen Sie die Begriffe richtig zu.",
+      "situation": null,
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Bestand, der mindestens im Lager vorhanden sein soll. => Mindestbestand",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Bestand, der mindestens im Lager vorhanden sein soll. => Istbestand oder auch Durchschnittliche Lagerdauer genannt",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Bei der Inventur ermittelter Bestand. => Buchbestand",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Bei der Inventur ermittelter Bestand. => Istbestand",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Bestand, bei dem die Einkaufsabteilung benachrichtigt wird. => Mindestbestand",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Bestand, bei dem die Einkaufsabteilung benachrichtigt wird. => Meldebestand",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Laut Buchhaltung vorhandener Bestand. => Buchbestand",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Bestand, bei dem die Einkaufsabteilung benachrichtigt wird. => Meldebestand",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    }
+  ]
+}

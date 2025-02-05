@@ -1,0 +1,442 @@
+{
+  "title": "Lager und Liefermanagement Quiz",
+  "score": 23,
+  "google_drive_link": "https://drive.google.com/file/d/1OfBiXGPYFV1tNg45Gp3G-NyJeujAYqS-/view",
+  "questions": [
+    {
+      "title": "Frage 1",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Bei der Kontrolle des Lieferanten Assel bemerken Sie, dass die Anzahl der Weinflaschen nicht mit der auf dem Lieferschein übereinstimmt. Was ist zu tun?",
+      "situation": "Sie werden vom Restaurantleiter beauftragt, heute mehrere Lieferungen anzunehmen.",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Sie lassen sich bei der Annahme den Mangel in der Menge auf dem Lieferschein bestätigen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Sie lehnen die Lieferung ab.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 2",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Der Konditor liefert eine Hochzeitstorte, die für die gestrige Hochzeit bestellt war. Wie wird diese Art von Kauf genannt, die an einen bestimmten Tag gebunden ist? Müssen Sie die Lieferung annehmen?",
+      "situation": "Sie werden vom Restaurantleiter beauftragt, heute mehrere Lieferungen anzunehmen.",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Es handelt sich um einen Fixkauf. Sie lehnen die Lieferung ab, da sie an einen bestimmten Zeitpunkt gebunden war.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Es handelt sich um einen normalen Kauf. Sie nehmen die Lieferung an.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 3",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Wann ist ein versteckter Mangel zu rügen?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Sofort nach Entdeckung des Mangels, spätestens 6 Monate nach dem Kauf.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Innerhalb von 12 Monaten nach dem Kauf, auch ohne Entdeckung des Mangels.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Nur unmittelbar nach dem Kauf, auch wenn der Mangel später entdeckt wird.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 4",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welche Aufgaben hat der Lieferschein?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": "Der Lieferschein begleitet die Anlieferung von Waren. Er enthält Angaben über den Lieferanten, Art und Menge der Ware (ohne Preise) und das Lieferdatum. Für den Warenempfänger dient er zur Kontrolle der Lieferung. Der Lieferant lässt sich die ordnungsgemäße Lieferung auf dem Lieferschein bestätigen.",
+      "answers": [
+        {
+          "answer": "Er dient zur Kontrolle der gelieferten Ware und wird vom Lieferanten zur Bestätigung der Lieferung verwendet.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Er enthält alle Preise und dient als Rechnungsvorlage.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Der Lieferschein wird ausschließlich vom Lieferanten archiviert.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 5",
+      "points": 3,
+      "type": "multiple_choice",
+      "question": "Welche Voraussetzungen sind für einen Lieferungsverzug notwendig und welche Rechte ergeben sich daraus für den Käufer / Empfänger?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": "Voraussetzungen für den Lieferungsverzug:\n1. Die Lieferung muss fällig sein. \n2. Es muss ein Verschulden des Lieferanten vorliegen.\nRechte des Empfängers ohne Nachfristsetzung:\n1. Bestehen auf Lieferung.\n2. Bestehen auf Lieferung und Verlangen eines Schadensersatzes.\nRechte des Empfängers mit Nachfristsetzung:\n1. Schadensersatz statt Leistung oder Ersatz vergeblicher Aufwendungen.\n2. Rücktritt vom Kaufvertrag.",
+      "answers": [
+        {
+          "answer": "Lieferung muss fällig sein; Verschulden des Lieferanten erforderlich; Rechte: Schadensersatz, Rücktritt.",
+          "correct": true,
+          "correct_order": null,
+          "points": 3
+        },
+        {
+          "answer": "Lieferung muss nicht fällig sein; Rechte: Sofortiger Rücktritt vom Vertrag ohne Nachfristsetzung.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Kein Verschulden des Lieferanten notwendig; Rechte: Schadensersatz nur mit gerichtlicher Anordnung.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 6",
+      "points": 3,
+      "type": "multiple_choice",
+      "question": "Welche Rechte ergeben sich für den Käufer aus einer mangelhaften Lieferung?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": "Rechte: Nachbesserung oder Ersatzlieferung, Rücktritt vom Kaufvertrag, Minderung des Kaufpreises, Schadensersatz / Ersatz vergeblicher Aufwendungen.",
+      "answers": [
+        {
+          "answer": "Recht auf Nachbesserung oder Ersatzlieferung",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Recht auf Rücktritt vom Kaufvertrag",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Recht auf Schadensersatz",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Recht auf sofortige Stornierung ohne weitere Voraussetzungen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 7",
+      "points": 3,
+      "type": "multiple_choice",
+      "question": "Welche Aussagen zum Mindesthaltbarkeitsdatum und Verbrauchsdatum sind richtig?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Das Mindesthaltbarkeitsdatum gibt an, wie lange das Lebensmittel bei sachgemäßer Lagerung mindestens haltbar ist.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Nach Ablauf des Mindesthaltbarkeitsdatums muss das Lebensmittel entsorgt werden.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Wenn die Ware nach Ablauf des Mindesthaltbarkeitsdatums nach Prüfung einwandfrei ist, kann sie verzehrt werden.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Nach Ablauf des Verbrauchsdatums darf die Ware nicht mehr verwendet werden.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 8",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welches Produkt ist bei der Warenannahme zuerst zu versorgen?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Frischer Spinat",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Tiefgefrorenes Schweinefilet",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Dosenfrüchte",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ganzer, frischer Lachs",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 9",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Wie hoch darf die Temperatur in Tiefkühlräumen höchstens sein?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": "Die maximale Temperatur in Tiefkühlräumen darf -18 °C nicht überschreiten.",
+      "answers": [
+        {
+          "answer": "-18 °C",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "-17 °C",
+          "correct": false,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "-10 °C",
+          "correct": false,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "-28 °C",
+          "correct": false,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 10",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Bei welcher Temperatur / Luftfeuchtigkeit sollte Gemüse und Obst gelagert werden?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": "Die optimale Lagerung von Obst und Gemüse erfolgt bei einer Temperatur von 6 - 8 °C und hoher Luftfeuchtigkeit.",
+      "answers": [
+        {
+          "answer": "Temperatur um den Gefrierpunkt und niedrige Luftfeuchtigkeit",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Temperatur von 2 °C bei hoher Luftfeuchtigkeit",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Temperatur von 6 - 8 °C und geringe Luftfeuchtigkeit",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Temperatur von 6 - 8 °C und hohe Luftfeuchtigkeit",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 11",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welche Auswirkungen hat ein zu großer Lagerbestand? Nennen Sie 3 Auswirkungen.",
+      "situation": null,
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Ein zu großer Lagerbestand führt zu Kapitalbindung.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Schwund bei verderblichen Waren.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Lagerbestand wird zu schnell verbraucht.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Lagerraum wird benötigt.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Lagerbestand wird zu langsam verbraucht.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 12",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Nach welcher Formel wird der Meldebestand berechnet?",
+      "situation": null,
+      "hint": null,
+      "solution_hint": "Der Meldebestand wird nach der Formel \"Tagesbedarf x Lieferzeit + Mindestbestand\" berechnet.",
+      "answers": [
+        {
+          "answer": "(Anfangsbestand + Endbestand)/2",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Tagesbedarf x Lieferzeit",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Tagesbedarf x Lieferzeit + Mindestbestand",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Tagesbedarf x Lieferzeit - Mindestbestand",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 13",
+      "points": 1,
+      "type": "calculation",
+      "question": "Ermitteln Sie den durchschnittlichen Lagerbestand.",
+      "situation": "Bei der Inventur wurden folgende Werte festgehalten: Anfangsbestand: 20.000 €, Summe der 12 Monatsendbestände: 180.000 €, Warenverbrauch: 172.000 €.",
+      "hint": null,
+      "solution_hint": "Der durchschnittliche Lagerbestand wird wie folgt berechnet: $$ \\text{Durchschn. Lagerbestand} = \\frac{\\text{Anfangsbestand} + \\text{Summe der Monatsendbestände}}{13} = \\frac{20.000 + 180.000}{13} = 15.384,62\\,€ $$",
+      "answers": [
+        {
+          "answer": "15.384,62 €",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 14",
+      "points": 1,
+      "type": "calculation",
+      "question": "Wie hoch ist die Umschlaghäufigkeit?",
+      "situation": "Bei der Inventur wurden folgende Werte festgehalten: Anfangsbestand: 20.000 €, Summe der 12 Monatsendbestände: 180.000 €, Warenverbrauch: 172.000 €.",
+      "hint": null,
+      "solution_hint": "Die Umschlaghäufigkeit wird wie folgt berechnet: $$ \\text{Umschlaghäufigkeit} = \\frac{\\text{Wareneinsatz}}{\\text{Durchschn. Lagerbestand}} = \\frac{172.000}{15.384,62} = 11,18 $$",
+      "answers": [
+        {
+          "answer": "11,18",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 15",
+      "points": 1,
+      "type": "calculation",
+      "question": "Wie hoch ist die durchschnittliche Lagerdauer?",
+      "situation": "Bei der Inventur wurden folgende Werte festgehalten: Anfangsbestand: 20.000 €, Summe der 12 Monatsendbestände: 180.000 €, Warenverbrauch: 172.000 €.",
+      "hint": null,
+      "solution_hint": "Die durchschnittliche Lagerdauer wird wie folgt berechnet: $$ \\text{Durchschn. Lagerdauer} = \\frac{360}{\\text{Umschlaghäufigkeit}} = \\frac{360}{11,18} = 32,20\\,\\text{Tage} $$",
+      "answers": [
+        {
+          "answer": "32,20 Tage",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

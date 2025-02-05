@@ -1,0 +1,1116 @@
+{
+   "title": "Exam Frühjahr 2024 Fachkraft für Gastronomie",
+   "score": 30,
+   "questions": [
+       {
+           "title": "Frage 1",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie kontrollieren, ob im Restaurant die Sicherheitsvorschriften eingehalten werden. Geben Sie die Grundfarbe des Schildes an, dass auf einen Notausgang hinweist!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Schwarz",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Rot",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Blau",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Grün",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Gelb",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 2",
+           "points": 2,
+           "type": "multiple_choice",
+           "question": "Die Gruppe möchte gerne zusammensitzen. Sie sind beauftragt die Tische zu stellen. Geben Sie an, welche 2 Tafelformen dafür geeignet sind!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Runde Tafel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "T-Tafel",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "U-Tafel",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Lange Tafel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "E-Tafel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Stern-Tafel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Parlamentsform",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 3",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Die Tische des Restaurants sind 80 x 80 cm groß. Sie wurden beauftragt, alle Tische mit Tischdecken auszustatten. An jeder Tischkante ist ein Überhang von 25 cm zu berücksichtigen. Ermitteln Sie die optimale Länge und Breite der Tischdecken in cm!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "130 x 130 cm",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               }
+           ]
+       },
+       {
+           "title": "Frage 4",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie sollen für die Hotelgäste die Frühstücks-Tafel vorbereiten. Bringen Sie die Arbeitsschritte in die richtige Reihenfolge!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "1. Tische zusammenstellen, 2. Tischtücher auflegen, 3. Wackelnde Tische mit Korkscheiben stabilisieren, 4. Tischläufer auflegen, 5. Eindecken und Blumenvasen platzieren",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               }
+           ]
+       },
+       {
+           "title": "Frage 5",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Stellen Sie fest, warum bei der Reinigung des Restaurants an manchen Stellen Desinfektionsmittel eingesetzt wird.",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Dadurch erhalten die Oberflächen einen besonders schönen Glanz.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Desinfektionsmittel sind preiswerter als Reinigungsmittel.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Dadurch werden krankheitserregende Mikroorganismen abgetötet.",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Das Restaurant riecht nach der Reinigung besonders gut.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Die Reinigung mit Desinfektionsmittel geht schneller.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 6",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Um die Tischtücher vor dem Verrutschen zu schützen, werden zunächst Tischtuchunterlagen auf die Tische gelegt. Stellen Sie fest, wie diese noch genannt werden können.",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Platzdecken",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Moltons",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Decktücher",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Servietten",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Tischläufer",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 7",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Wird ein Tischtuch auseinandergefalten, zeigen sich drei Längsbrüche. Stellen Sie fest, wie diese 3 Längsbrüche genannt werden!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Unterbruch",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Querbruch",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Horizontalbruch",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Viertelbruch",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Mittelbruch",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Halbbruch",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Oberbruch",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Vertikalbruch",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 8",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie wurden beauftragt, die Tische für das Frühstück entsprechend der Jahreszeit zu dekorieren. Geben Sie an, welche Dekorationselemente dafür geeignet sind!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Kleine Zierkürbisse",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Primeltöpfchen",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Laternen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Konfetti und Luftschlangen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Vasen mit Tulpen",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               }
+           ]
+       },
+       {
+           "title": "Frage 9",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie decken die Frühstückstische für ein einfaches, kontinentales Frühstück ein. Stellen Sie fest, welche Besteckteile Sie hierzu verwenden!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Tafelmesser",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Mittelmesser",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Mittellöffel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Tafelgabel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Mittelgabel",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               }
+           ]
+       },
+       {
+           "title": "Frage 10",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Ein Gast möchte ein weiches Frühstücksei. Hierzu decken Sie einen kleinen Löffel ein. Stellen Sie fest, welches Material schwarze Beläge verursachen würde!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Edelstahl",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Plastik",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Silber",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Horn",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Perlmutt",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 11",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Eine Kollegin bittet Sie, alte Zeitungen zu entsorgen. Geben Sie an, in welcher Mülltonne Sie die Zeitungen umweltgerecht entsorgen!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Gelbe Tonne",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Altpapiertonne",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Biotonne",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Restmülltonne",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Sondermülltonne",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 12",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Zu den Abfallen gehören auch Joghurtbecher aus Kunststoff. Stellen Sie fest, welche Mülltonne hierfür die Richtige ist!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Sondermülltonne",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Altpapiertonne",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Biotonne",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Restmülltonne",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Gelbe Tonne",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               }
+           ]
+       },
+       {
+           "title": "Frage 13",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie sind beauftragt eine Warenlieferung in Empfang zu nehmen. Der Lieferant bittet Sie den Empfang der Ware auf seinem digitalen Endgerät zu unterschreiben. Welche Vorteile hat die digitale Dokumentation?",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Die digitale Dokumentation spart Verwaltungsaufwand und schont die Umwelt, weil kein Papier verbraucht wird.",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Die digitale Dokumentation ersetzt den Lagerverwalter.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Die digitale Dokumentation garantiert eine fehlerfreie Ware.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Die digitale Dokumentation verhindert einen zu großen Lagerbestand.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Die digitale Dokumentation kann von allen Mitarbeitern im Betrieb angesehen werden.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 14",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie sollen die Online-Werbung Ihres Restaurants auf Einhaltung der SMART-Regel überprüfen. Stellen Sie fest, welche dieser Eigenschaften nicht für den dazugehörigen Buchstaben steht!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "S = spezifisch",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "M = messbar",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "A = attraktiv",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "R = rechtssicher",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "T = terminiert",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 15",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie sollen das Besteck richtig sortieren. Stellen Sie fest, welches Besteckteil nicht zum Grundbesteck gehört!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Kaffeelöffel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Mittellöffel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Buttermesser",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Mittelmesser",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Tafelgabel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 16",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Es wird eine Suppe im tiefen Teller serviert. Geben Sie an, welches Besteck Sie fachgerecht eindecken!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Gourmetlöffel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Schöpflöffel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Kleiner Löffel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Mittellöffel",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Tafellöffel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 17",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "In einer kurzen Pause stellt Ihnen eine Auszubildene eine Frage. Stellen Sie fest, welche der folgenden Hygieneanweisungen zur Personalhygiene gehört!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Saubere Behältnisse verwenden",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Verderbliche Lebensmittel kühl lagern",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Abfälle außerhalb der Küche lagern",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Hände nach dem Toilettengang gründlich waschen",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Auftauflüssigkeit von Geflügel entsorgen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 18",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Zur Hauptspeise steht Spaghetti Bolognese auf der Karte. Stellen Sie fest, welches Besteck dazu fachgerecht eingedeckt wird!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Gourmetlöffel und Tafelgabel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Tafelmesser und Tafelgabel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Mittellöffel und Mittelgabel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Mittelmesser und Mittelgabel",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Tafellöffel und Tafelgabel",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 19",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie schicken einem Gast eine Reservierungsbestätigung per E-Mail. Diese E-Mail soll gleichzeitig an ihren Vorgesetzten zur Kenntnis gesendet werden. Geben Sie die Funktion an, die Sie in Ihrem E-Mail-Programm hierfür nutzen!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "E-Mail löschen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Blindkopie",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Antworten",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Allen Antworten",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Als Anlage weiterleiten",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 20",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie sind auch für die Reinigung im Restaurant zuständig. Stellen Sie fest, in welchem Fall eine Verschmutzung fachgerecht behandelt wird!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Textilien mit Blutflecken werden in kaltem Wasser eingeweicht.",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Rotweinflecken werden zunächst mit Zucker bestreut.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Ein Fettfleck wird mit Eiswasser behandelt.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Ein Wachsfleck wird mit Essigwasser entfernt.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Die Reste eines Kaugummis werden mit einem Mikrofasertuch verrieben.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 21",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Ihr Restaurant hält sich bei der Durchführung von Hygienemaßnahmen an das HACCP-Konzept. Stellen Sie fest, für welches englische Wort der Buchstabe H steht!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Hazard (Gefahr/Risiko)",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Hygiene (Hygiene)",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Hands (Hände)",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Help (Hilfe)",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Hotel (Hotel)",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 22",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Zum Essen werden verschiedene Getränke gereicht. Ordnen Sie zu, indem Sie die Kennziffern der 5 Getränke in die Kästchen neben den Gläsern einordnen.",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Burgunderglas - Rotwein",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Tulpe - Bier",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Tumbler - William-Birnen-Schnaps",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Sektkelch - Champagner",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Stamper - Orangenlimonade",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 23",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Zum Dessert gibt es Crêpes Suzettes. Beim Flambieren verbrennt sich ein Kollege. Die Verbrennungen sind so schlimm, dass Sie den Rettungsdienst rufen müssen. Wie lautet die bundesweit einheitliche Notrufnummer?",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "110",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "112",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "123",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "333",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "999",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 24",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Ihr Restaurant erlitt im vergangenen Monat 3 Mitarbeiter eine Verbrennung während der Arbeitszeit. Insgesamt arbeiten 20 Personen im Betrieb. Berechnen Sie den Anteil der Mitarbeiter in Prozent, die einen Arbeitsunfall hatten!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "15%",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               }
+           ]
+       },
+       {
+           "title": "Frage 25",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Eine Kollegin soll eine verschmutzte Tischdecke reinigen und fragt Sie, was ein 'Tumbler' ist. Wie antworten Sie richtig?",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Ein Tumbler ist eine Waschmaschine.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Ein Tumbler ist eine spezielle Art von Bügeleisen.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Ein Tumbler ist ein Waschbottich.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Ein Tumbler ist ein Wäschetrockner.",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Ein Tumbler ist eine Bügelmaschine.",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 26",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Je nach Temperaturverträglichkeit muss die Wäsche vor dem Waschen sortiert werden. Welche Temperaturangabe finden Sie nicht auf einem Pflegeetikett?",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "30 Grad",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "40 Grad",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "50 Grad",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "60 Grad",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "95 Grad",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 27",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Auf dem Etikett des Waschmittels finden Sie abgebildeten Hinweis: 1,5 kg Waschmittel reichen für 20 Waschladungen. Berechnen Sie, wie viel Gramm Waschmittel für eine Waschladung benötigt wird!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "75 g",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               }
+           ]
+       },
+       {
+           "title": "Frage 28",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "In den Medien wurde vor Phishing-Mails gewarnt. Stellen Sie fest, was Sie im Verdachtsfall nicht tun sollten, um Ihr Computersystem zu schützen!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Die E-Mail lesen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Den Anhang öffnen",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Die E-Mail löschen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Das E-Mail-Programm schließen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Den Computer ausschalten",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 29",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Durch das Sortieren der Abfälle am Morgen wurde Ihr Interesse für Umweltschutz geweckt. Sie überlegen, wie Ihr Betrieb an anderen Stellen dazu beitragen kann. Stellen Sie fest, welche der folgenden Verhaltensweisen zum Umweltschutz beiträgt!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "Portionspäckchen aus Plastik verwenden",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Handtücher der Gäste nach jeder Verwendung waschen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Erdbeeren aus Südafrika beziehen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               },
+               {
+                   "answer": "Bewegungsmelder für Toiletten-Beleuchtung installieren",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               },
+               {
+                   "answer": "Spülmaschine nur zur Hälfte befüllen",
+                   "correct": false,
+                   "correct_order": null,
+                   "points": 0
+               }
+           ]
+       },
+       {
+           "title": "Frage 30",
+           "points": 1,
+           "type": "multiple_choice",
+           "question": "Sie haben heute 8 Stunden gearbeitet. Gestern waren Sie 4,5 Stunden im Betrieb und vorgestern 7,5 Stunden. Insgesamt müssen Sie 35 Wochenstunden arbeiten. Berechnen Sie, wie viele Stunden Sie noch in dieser Woche leisten müssen!",
+           "hint": null,
+           "solution_hint": null,
+           "answers": [
+               {
+                   "answer": "15 Stunden",
+                   "correct": true,
+                   "correct_order": null,
+                   "points": 1
+               }
+           ]
+       }
+   ]
+}

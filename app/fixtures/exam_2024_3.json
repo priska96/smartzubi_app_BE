@@ -1,0 +1,780 @@
+{
+  "title": "Kỳ thi Tốt nghiệp ngành Dịch vụ 2024",
+  "score": 30,
+  "questions": [
+    {
+      "title": "Aufgabe 1",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Für den Geflügelsalat wurde rohe Hähnchenbrust gegart. Was müssen Sie beim Umgang mit rohem Geflügel beachten? Nennen Sie 5 Maßnahmen zur Produkthygiene/Betriebshygiene und 5 Maßnahmen zur Personalhygiene!",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Produkthygiene/Betriebshygiene: 1. Rohe und gegarte Lebensmittel getrennt lagern. 2. Geflügel stets gut durchgaren. 3. Arbeitsflächen regelmäßig desinfizieren. 4. Kühlkette einhalten. 5. Werkzeuge und Geräte gründlich reinigen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 0.5
+        },
+        {
+          "answer": "Personalhygiene: 1. Hände gründlich waschen. 2. Saubere Arbeitskleidung tragen. 3. Handschuhe bei der Verarbeitung tragen. 4. Kontakt zwischen rohem Geflügel und anderen Lebensmitteln vermeiden. 5. Regelmäßige Schulungen zur Hygiene einhalten.",
+          "correct": true,
+          "correct_order": null,
+          "points": 0.5
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 2",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie sind mit Reinigungsarbeiten im Bistro beauftragt. Sie entfernen einen Fettfleck auf einem Sitzpolster aus Stoff. Beschreiben Sie, wie Sie den Fettfleck aus dem Sitzpolster entfernen!",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "1. Zuerst den Fleck mit einem saugfähigen Tuch abtupfen. 2. Eine Mischung aus Wasser und Spülmittel vorbereiten. 3. Die Mischung auf den Fleck auftragen und leicht einarbeiten. 4. Mit einem sauberen, feuchten Tuch die Seifenreste entfernen. 5. Den Bereich trocknen lassen und ggf. wiederholen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 3",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Bei der Warenannahme machen Sie Stichproben, um festzustellen, ob die Vorschriften zur Mindesthaltbarkeit erfüllt sind. Bei welchen Getränken müssen Sie das Mindesthaltbarkeitsdatum (MHD) prüfen?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Schwarzwälder Kirschwasser und Tafelwasser",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Sekt und Cognac",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Brandy und Bockbier",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Apfelsaftschorle und alkoholfreies Bier",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Rotwein und Radler/Alsterwasser",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 4",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie haben weitere Fische bestellt. Stellen Sie fest, welcher Fisch zu den Süßwasserfischen gehört!",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Forelle",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Hering",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Scholle",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Thunfisch",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Kabeljau",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 5",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie sortieren gelieferte Weine im Lager ein. Ordnen Sie zu, welche Rebsorten zu welcher Lagerorte gehören! (Weißwein- und Rotweinlager)",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Weißweinlager: Müller-Thurgau, Silvaner, Riesling; Rotweinlager: Trollinger, Spätburgunder",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 6",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie haben Ihre Berufsausbildung erfolgreich abgeschlossen und möchten sich beruflich verändern. Sie haben ein Vorstellungsgespräch. Welche Frage ist in einem solchen Gespräch nicht zulässig?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Die Frage nach der Zugehörigkeit zu einer Gewerkschaft",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Die Frage nach Zusatzqualifikationen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Die Frage nach der Schulbildung",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Die Frage nach den Vorbeschäftigungen und der letzten Tätigkeit",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Die Frage nach Gehaltsvorstellungen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 7",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Die Tarifvertragsparteien haben das Recht, Löhne, Gehälter und andere Arbeitsbedingungen unter Beachtung der gesetzlichen Vorschriften selbstständig zu regeln. Nennen Sie den Fachbegriff für dieses Recht!",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Allgemeinverbindlichkeit",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Freizügigkeit",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Tarifautonomie",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Generationenvertrag",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Schlichtung",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 8",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie planen eine Urlaubsreise. In welchem Land ist der Euro gesetzliches Zahlungsmittel?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Schweiz",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Italien",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Polen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Norwegen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Großbritannien",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 9",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Stellen Sie fest, welche Maßnahme das Unfallrisiko beim Umgang mit scharfen Messern reduziert!",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Scharfe Messer verwenden",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Den Messerrücken statt der Schneide benutzen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Den Griff des Messers fetten",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Messer stets flach aufbewahren",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Messer regelmäßig schärfen",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 10",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie arbeiten im Frühdienst und decken die Frühstückstische ein. Welches Besteck verwenden Sie für ein einfaches Frühstück?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Dessertlöffel",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Mittelmesser",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Dessertgabel",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Kaffeelöffel",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Tafelgabel",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 11",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Bei der Arbeit fällt ein Glas auf den Boden und zersplittert. Wie gehen Sie richtig vor?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Große Glassplitter sofort mit bloßen Händen entfernen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Gäste informieren und Bereich absichern",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Weiterarbeiten und die Putzkolonne verständigen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Glassplitter mit einem Besen entfernen",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Glassplitter mit einem nassen Tuch aufwischen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 12",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie sollen eine Tischdekoration für eine Hochzeit gestalten. Welches Element gehört nicht dazu?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Blumenstrauß",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Tischkarte",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Serviette",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Kerze",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Aschenbecher",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 13",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie erhalten eine Warenlieferung. Was prüfen Sie zuerst?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Mindesthaltbarkeitsdatum",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Liefermenge",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Verpackung auf Beschädigungen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Lieferschein",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Artikelnummer",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 14",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welches Getränk ist für Kinder nicht geeignet?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Apfelsaft",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Orangensaft",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Wasser",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Limonade",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Milch",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 15",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Ein Gast beschwert sich über ein kaltes Gericht. Was tun Sie?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Ignorieren",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Entschuldigen und Ersatz anbieten",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Sofort die Küche informieren",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Den Gast bitten, zu warten",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Dem Gast einen Gutschein anbieten",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 16",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Wie lagern Sie rohes Fleisch im Kühlschrank richtig?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Über dem Obst und Gemüse",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Neben den Milchprodukten",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Auf der untersten Ablage",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Auf der obersten Ablage",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Im Türfach",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 17",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Sie servieren ein 4-Gänge-Menü. Was servieren Sie zuerst?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Hauptgericht",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Suppe",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Dessert",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Vorspeise",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Käseplatte",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 18",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welches Element ist nicht Teil der HACCP-Prinzipien?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Risikoanalyse",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Kritische Kontrollpunkte",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Korrekturmaßnahmen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Dokumentation",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Personalhygiene",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 19",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welches dieser Geräte ist in der Gastronomie zum Erhitzen von Speisen ungeeignet?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Mikrowelle",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Ofen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Grill",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Toaster",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Kühlschrank",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 20",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Ein Kollege ist krank. Was tun Sie?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Die Arbeit des Kollegen ignorieren",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Den Vorgesetzten informieren",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Die Arbeit des Kollegen übernehmen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Den Kollegen anrufen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Nichts tun",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Aufgabe 21",
+      "points": 1,
+      "type": "multiple_choice",
+      "question": "Welches ist kein Kriterium für die Qualität von Lebensmitteln?",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Aussehen",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Geruch",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Geschmack",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Preis",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Haltbarkeit",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    }
+  ]
+}

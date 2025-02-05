@@ -1,0 +1,149 @@
+{
+  "title": "Exam 2025",
+  "score": 6,
+  "google_drive_link": "https://drive.google.com/file/d/1OfBiXGPYFV1tNg45Gp3G-NyJeujAYqS-/view",
+  "questions": [
+    {
+      "title": "Frage 1",
+      "points": 2,
+      "type": "multiple_choice",
+      "question": "Berechen den Umsatz mit folgenden Daten fgdgd fdsfds fdsf",
+      "hint": null,
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "1Eur",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "4Eur",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "0Eur",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "0Eur",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "title": "Frage 2",
+      "points": 2,
+      "type": "calculation",
+      "hint": "Schreibe den Rechenweg auf einem Zettel auf!",
+      "solution_hint": "Die Tische des Restaurants sind $80 \\times 80$ cm groß. An jeder Tischkante ist ein Überhang von 25 cm zu berücksichtigen. Wir berechnen die optimale Länge und Breite der Tischdecken: Die Länge der Tischdecke berechnet sich wie folgt:\\ $80 \\, \\text{cm} + 2 \\times 25 \\, \\text{cm} = 80 \\, \\text{cm} + 50 \\, \\text{cm} = 130 \\, \\text{cm}$.\\Die Breite der Tischdecke berechnet sich ebenfalls wie folgt: $80 \\, \\text{cm} + 2 \\times 25 \\, \\text{cm} = 80 \\, \\text{cm} + 50 \\, \\text{cm} = 130 \\, \\text{cm}$.\\Die optimale Länge und Breite der Tischdecken beträgt somit $130 \\, \\text{cm} \\times 130 \\, \\text{cm}$.",
+      "question": "Die Tische des Restaurants sind 80 x 80 cm groß. Sie wurden beauftragt, alle Tische mit Tischdecken auszustatten. An jeder Tischkante ist ein Überhang von 25 cm zu berücksichtigen. Ermitteln Sie die optimale Länge und Breite der Tischdecken in cm!",
+      "answers": [
+        {
+          "answer": "130cm x 130cm",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 3",
+      "points": 5,
+      "type": "ordering",
+      "hint": null,
+      "solution_hint": null,
+      "question": "Sie sollen für die Hotelgäste die Frühstücks-Tafel vorbereiten. Bringen Sie die Arbeitsschritte in die richtige Reihenfolge!",
+      "answers": [
+        {
+          "answer": "Tische zusammenstellen",
+          "correct": true,
+          "correct_order": 1,
+          "points": 1
+        },
+        {
+          "answer": "Eindecken und Blumenvasen platzieren",
+          "correct": true,
+          "correct_order": 5,
+          "points": 1
+        },
+        {
+          "answer": "Wackelnde Tische mit Korkscheiben stabilisieren",
+          "correct": true,
+          "correct_order": 3,
+          "points": 1
+        },
+        {
+          "answer": "Tischläufer auflegen",
+          "correct": true,
+          "correct_order": 4,
+          "points": 1
+        },
+        {
+          "answer": "Tischtücher auflegen",
+          "correct": true,
+          "correct_order": 2,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Frage 4",
+      "question": "Beim Garnieren von Tellern für eine Prüfung zur Fachkraft für Gastronomie müssen bestimmte Regeln beachtet werden. Welche der folgenden Aussagen sind korrekt? (Wählen Sie 4 aus)",
+      "points": 4,
+      "type": "multiple_choice",
+      "hint": "1. Essbarkeit: Die Garnitur sollte essbar sein. Es sollten keine ungenießbaren Dekorationen verwendet werden, da sie den Gast verwirren oder sogar gefährden könnten.\n\n2. Frische Zutaten: Verwenden Sie ausschließlich frische Zutaten für die Garnitur, um eine hohe Qualität und Sicherheit der Speisen zu gewährleisten.\n\n3. Geschmackliche Ergänzung: Die Garnitur sollte zum Gericht passen und dessen Geschmack ergänzen. Sie sollte harmonisch zum Hauptgericht passen und dessen Aromen unterstreichen.\n\n4. Optische Ansprechbarkeit: Die Garnitur sollte appetitlich und ansprechend aussehen. Das Auge isst mit, daher sollte die Präsentation des Tellers attraktiv und professionell sein.",
+      "solution_hint": null,
+      "answers": [
+        {
+          "answer": "Die Garnitur sollte essbar sein.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Verwenden Sie so viele Farben wie möglich, um den Teller lebendig zu gestalten.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Die Garnitur sollte zum Gericht passen und dessen Geschmack ergänzen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Verwenden Sie ausschließlich frische Zutaten für die Garnitur.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Die Garnitur sollte immer in der Mitte des Tellers platziert werden.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        },
+        {
+          "answer": "Die Garnitur sollte appetitlich und ansprechend aussehen.",
+          "correct": true,
+          "correct_order": null,
+          "points": 1
+        },
+        {
+          "answer": "Es ist in Ordnung, ungenießbare Dekorationen zu verwenden, solange sie schön aussehen.",
+          "correct": false,
+          "correct_order": null,
+          "points": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "title": "Kỳ thi Tốt nghiệp ngành Dịch vụ 2024",
+  "score": 8,
+  "questions": [
+      {
+          "title": "Aufgabe 1",
+          "points": 1,
+          "type": "multiple_choice",
+          "question": "Für den Geflügelsalat wurde rohe Hähnchenbrust gegart. Was müssen Sie beim Umgang mit rohem Geflügel beachten? Nennen Sie 5 Maßnahmen zur Produkthygiene/Betriebshygiene und 5 Maßnahmen zur Personalhygiene!",
+          "hint": null,
+          "solution_hint": null,
+          "answers": [
+              {
+                  "answer": "Produkthygiene/Betriebshygiene: 1. Rohe und gegarte Lebensmittel getrennt lagern. 2. Geflügel stets gut durchgaren. 3. Arbeitsflächen regelmäßig desinfizieren. 4. Kühlkette einhalten. 5. Werkzeuge und Geräte gründlich reinigen.",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 0.5
+              },
+              {
+                  "answer": "Personalhygiene: 1. Hände gründlich waschen. 2. Saubere Arbeitskleidung tragen. 3. Handschuhe bei der Verarbeitung tragen. 4. Kontakt zwischen rohem Geflügel und anderen Lebensmitteln vermeiden. 5. Regelmäßige Schulungen zur Hygiene einhalten.",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 0.5
+              }
+          ]
+      },
+      {
+          "title": "Aufgabe 2",
+          "points": 1,
+          "type": "multiple_choice",
+          "question": "Sie sind mit Reinigungsarbeiten im Bistro beauftragt. Sie entfernen einen Fettfleck auf einem Sitzpolster aus Stoff. Beschreiben Sie, wie Sie den Fettfleck aus dem Sitzpolster entfernen!",
+          "hint": null,
+          "solution_hint": null,
+          "answers": [
+              {
+                  "answer": "1. Zuerst den Fleck mit einem saugfähigen Tuch abtupfen. 2. Eine Mischung aus Wasser und Spülmittel vorbereiten. 3. Die Mischung auf den Fleck auftragen und leicht einarbeiten. 4. Mit einem sauberen, feuchten Tuch die Seifenreste entfernen. 5. Den Bereich trocknen lassen und ggf. wiederholen.",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 1
+              }
+          ]
+      },
+      {
+          "title": "Aufgabe 3",
+          "points": 1,
+          "type": "multiple_choice",
+          "question": "Bei der Warenannahme machen Sie Stichproben, um festzustellen, ob die Vorschriften zur Mindesthaltbarkeit erfüllt sind. Bei welchen Getränken müssen Sie das Mindesthaltbarkeitsdatum (MHD) prüfen?",
+          "hint": null,
+          "solution_hint": null,
+          "answers": [
+              {
+                  "answer": "Schwarzwälder Kirschwasser und Tafelwasser",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Sekt und Cognac",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Brandy und Bockbier",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Apfelsaftschorle und alkoholfreies Bier",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 1
+              },
+              {
+                  "answer": "Rotwein und Radler/Alsterwasser",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              }
+          ]
+      },
+      {
+          "title": "Aufgabe 4",
+          "points": 1,
+          "type": "multiple_choice",
+          "question": "Sie haben weitere Fische bestellt. Stellen Sie fest, welcher Fisch zu den Süßwasserfischen gehört!",
+          "hint": null,
+          "solution_hint": null,
+          "answers": [
+              {
+                  "answer": "Forelle",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 1
+              },
+              {
+                  "answer": "Hering",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Scholle",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Thunfisch",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Kabeljau",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              }
+          ]
+      },
+      {
+          "title": "Aufgabe 5",
+          "points": 1,
+          "type": "multiple_choice",
+          "question": "Sie sortieren gelieferte Weine im Lager ein. Ordnen Sie zu, welche Rebsorten zu welcher Lagerorte gehören! (Weißwein- und Rotweinlager)",
+          "hint": null,
+          "solution_hint": null,
+          "answers": [
+              {
+                  "answer": "Weißweinlager: Müller-Thurgau, Silvaner, Riesling; Rotweinlager: Trollinger, Spätburgunder",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 1
+              }
+          ]
+      },
+      {
+          "title": "Aufgabe 6",
+          "points": 1,
+          "type": "multiple_choice",
+          "question": "Sie haben Ihre Berufsausbildung erfolgreich abgeschlossen und möchten sich beruflich verändern. Sie haben ein Vorstellungsgespräch. Welche Frage ist in einem solchen Gespräch nicht zulässig?",
+          "hint": null,
+          "solution_hint": null,
+          "answers": [
+              {
+                  "answer": "Die Frage nach der Zugehörigkeit zu einer Gewerkschaft",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 1
+              },
+              {
+                  "answer": "Die Frage nach Zusatzqualifikationen",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Die Frage nach der Schulbildung",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Die Frage nach den Vorbeschäftigungen und der letzten Tätigkeit",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Die Frage nach Gehaltsvorstellungen",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              }
+          ]
+      },
+      {
+          "title": "Aufgabe 7",
+          "points": 1,
+          "type": "multiple_choice",
+          "question": "Die Tarifvertragsparteien haben das Recht, Löhne, Gehälter und andere Arbeitsbedingungen unter Beachtung der gesetzlichen Vorschriften selbstständig zu regeln. Nennen Sie den Fachbegriff für dieses Recht!",
+          "hint": null,
+          "solution_hint": null,
+          "answers": [
+              {
+                  "answer": "Allgemeinverbindlichkeit",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Freizügigkeit",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Tarifautonomie",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 1
+              },
+              {
+                  "answer": "Generationenvertrag",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Schlichtung",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              }
+          ]
+      },
+      {
+          "title": "Aufgabe 8",
+          "points": 1,
+          "type": "multiple_choice",
+          "question": "Sie planen eine Urlaubsreise. In welchem Land ist der Euro gesetzliches Zahlungsmittel?",
+          "hint": null,
+          "solution_hint": null,
+          "answers": [
+              {
+                  "answer": "Schweiz",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Italien",
+                  "correct": true,
+                  "correct_order": null,
+                  "points": 1
+              },
+              {
+                  "answer": "Polen",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Norwegen",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              },
+              {
+                  "answer": "Großbritannien",
+                  "correct": false,
+                  "correct_order": null,
+                  "points": 0
+              }
+          ]
+      }
+  ]
+}
