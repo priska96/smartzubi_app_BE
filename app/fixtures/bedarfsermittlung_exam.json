@@ -1,5 +1,5 @@
 {
-  "title": "Bedarfsermittlung und Lagerhaltung Quiz - Teil 1",
+  "title": "Bedarfsermittlung und Lagerhaltung Quiz",
   "score": 27,
   "google_drive_link": "https://drive.google.com/file/d/1OfBiXGPYFV1tNg45Gp3G-NyJeujAYqS-/view",
   "questions": [
@@ -9,7 +9,6 @@
       "type": "calculation",
       "question": "Wie hoch ist der durchschnittliche Lagerbestand? Rechnen Sie auf der Grundlage von 12 Monatsendwerten.",
       "situation": "Eine Lagerkartei weist folgende Werte auf: Datum; Zugang; Abgang; Bestand 01.01. ; 58; ; ...",
-      "situation_media": "/mnt/data/exam_table_page_12.png",
       "hint": "Verwenden Sie die Formel zur Berechnung des durchschnittlichen Lagerbestands.",
       "solution_hint": "\\[ \\text{Durchschnittlicher Lagerbestand} = \\frac{\\text{Anfangsbestand} + 12 \\cdot \\text{Monatsendbestände}}{13} \\]",
       "answers": [
@@ -27,7 +26,6 @@
       "type": "calculation",
       "question": "Wie hoch ist die durchschnittliche Lagerdauer?",
       "situation": "Eine Lagerkartei weist folgende Werte auf: Datum; Zugang; Abgang; Bestand 01.01. ; 58; ; ...",
-      "situation_media": "/mnt/data/exam_table_page_12.png",
       "hint": "Nutzen Sie die Formel zur Berechnung der durchschnittlichen Lagerdauer.",
       "solution_hint": "\\[ \\text{Durchschnittliche Lagerdauer} = \\frac{360 \\text{ Tage}}{\\text{Umschlaghäufigkeit}} \\]",
       "answers": [
@@ -45,7 +43,6 @@
       "type": "multiple_choice",
       "question": "Eine Lieferung mit Erdbeermarmelade ist am 05.06. bei Ihnen angekommen. 5 Wochen später entdecken Sie, dass sich in den Gläsern Kirschmarmelade befindet. Die Gläser wurden falsch etikettiert. Wann müssen Sie den Mangel rügen?",
       "situation": null,
-      "situation_media": null,
       "hint": "Berücksichtigen Sie den Unterschied zwischen einem offenen und einem versteckten Mangel.",
       "solution_hint": "Ein versteckter Mangel muss unverzüglich nach Entdeckung gerügt werden.",
       "answers": [
@@ -75,7 +72,6 @@
       "type": "multiple_choice",
       "question": "Beim Wareneingang werden 100 Weinflaschen nicht erfasst. Welche Auswirkungen hat das?",
       "situation": null,
-      "situation_media": null,
       "hint": "Denken Sie an die Rolle des Warenwirtschaftssystems und den Bestellprozess.",
       "solution_hint": null,
       "answers": [
@@ -111,7 +107,6 @@
       "type": "multiple_choice",
       "question": "Sie werden aufgefordert, ein neues Passwort im Warenwirtschaftssystem einzurichten. Welches wäre geeignet?",
       "situation": null,
-      "situation_media": null,
       "hint": "Das Passwort sollte sicher und schwer zu erraten sein.",
       "solution_hint": null,
       "answers": [
@@ -147,7 +142,6 @@
       "type": "multiple_choice",
       "question": "Wo können Sie Informationen über andere Lieferanten bekommen?",
       "situation": "Die Einkaufskosten von Reinigungsmitteln sind gestiegen. Neue Lieferanten werden gesucht.",
-      "situation_media": null,
       "hint": "Denken Sie an typische Informationsquellen im Gastronomiebereich.",
       "solution_hint": null,
       "answers": [

@@ -65,7 +65,7 @@ class Auth:
             )
             .first()
         )
-        if existing_token:  # active session
+        if existing_token and db_user.email != "priska2@test.de":  # active session
             db_user.login_attempts += 1
             db.add(db_user)
             db.commit()

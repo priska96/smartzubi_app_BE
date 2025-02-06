@@ -16,7 +16,9 @@ def load_jsons():
         current_directory
         + "/app/fixtures/menu_wine_exam.json",
         current_directory
-        + "/app/fixtures/warenannahme_lagerkennzahlen_exam.json"
+        + "/app/fixtures/warenannahme_lagerkennzahlen_exam.json",
+        current_directory
+        + "/app/fixtures/bedarfsermittlung_exam.json"
     ]
 
     for file_name in files:
