@@ -2,18 +2,13 @@ from jose import jwt
 from fastapi import HTTPException, status, Request
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 
-
-ACCESS_TOKEN_EXPIRE_MINUTES = 5
-REFRESH_ACCESS_TOEK_EXPIRE_MINUTES = 60 * 24 * 7  # 7 days
-ALGORITHM = "HS256"
-JWT_SECRET_KEY = "narscbjim@$@&^@&%^&RFghgjvbdsha"
-JWT_REFRESH_SECRET_KEY = "13ugfdfgh@#$%^@&jkl45678902"
+from ...envConfig import Config
 
 
 def decodeJWT(jwtoken: str):
     try:
         # decode and verify the token
-        payload = jwt.decode(jwtoken, JWT_SECRET_KEY, ALGORITHM)
+        payload = jwt.decode(jwtoken, Config.JWT_SECRET_KEY, Config.ALGORITHM)
         return payload
     except Exception as e:
         print(e)
@@ -23,7 +18,9 @@ def decodeJWT(jwtoken: str):
 def decodeRefreshJWT(refresh_jwtoken: str):
     try:
         # decode and verify the token
-        payload = jwt.decode(refresh_jwtoken, JWT_REFRESH_SECRET_KEY, ALGORITHM)
+        payload = jwt.decode(
+            refresh_jwtoken, Config.JWT_REFRESH_SECRET_KEY, Config.ALGORITHM
+        )
         return payload
     except Exception as e:
         print(e)

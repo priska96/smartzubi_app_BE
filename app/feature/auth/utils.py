@@ -4,11 +4,7 @@ from datetime import datetime, timedelta, UTC
 from typing import Union, Any
 from jose import jwt
 
-ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 365  # 365 days
-REFRESH_ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 365 * 1.5  # 1.5 years
-ALGORITHM = "HS256"
-JWT_SECRET_KEY = "narscbjim@$@&^@&%^&RFghgjvbdsha"
-JWT_REFRESH_SECRET_KEY = "13ugfdfgh@#$%^@&jkl45678902"
+from ...envConfig import Config
 
 
 # Hash a password using bcrypt
@@ -30,11 +26,11 @@ def create_access_token(subject: Union[Any], expires_delta: int = None) -> str:
         expires_delta = datetime.now(UTC) + expires_delta
     else:
         expires_delta = datetime.now(UTC) + timedelta(
-            minutes=ACCESS_TOKEN_EXPIRE_MINUTES
+            minutes=Config.ACCESS_TOKEN_EXPIRE_MINUTES
         )
 
     to_encode = {"exp": expires_delta, "sub": str(subject)}
-    encoded_jwt = jwt.encode(to_encode, JWT_SECRET_KEY, ALGORITHM)
+    encoded_jwt = jwt.encode(to_encode, Config.JWT_SECRET_KEY, Config.ALGORITHM)
 
     return encoded_jwt
 
@@ -44,10 +40,10 @@ def create_refresh_token(subject: Union[Any], expires_delta: int = None) -> str:
         expires_delta = datetime.now(UTC) + expires_delta
     else:
         expires_delta = datetime.now(UTC) + timedelta(
-            minutes=REFRESH_ACCESS_TOKEN_EXPIRE_MINUTES
+            minutes=Config.REFRESH_ACCESS_TOKEN_EXPIRE_MINUTES
         )
 
     to_encode = {"exp": expires_delta, "sub": str(subject)}
-    encoded_jwt = jwt.encode(to_encode, JWT_REFRESH_SECRET_KEY, ALGORITHM)
+    encoded_jwt = jwt.encode(to_encode, Config.JWT_REFRESH_SECRET_KEY, Config.ALGORITHM)
 
     return encoded_jwt

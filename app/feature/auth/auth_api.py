@@ -2,6 +2,7 @@ from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 from jose import JWTError
 
+
 from ..user.schemas import UserResponse
 from .utils import (
     create_access_token,
@@ -10,6 +11,7 @@ from .utils import (
     verify_password,
 )
 from .auth_bearer import decodeJWT, decodeRefreshJWT, jwt_bearer
+from .auth_error_enum import AuthErrorEnum
 from .schemas import (
     LoginReq,
     LoginRes,
@@ -21,7 +23,6 @@ from .schemas import (
     UserCreateRes,
 )
 from ... import models
-import os
 import datetime
 
 
@@ -30,7 +31,8 @@ class Auth:
         existing_user = db.query(models.User).filter_by(email=user.email).first()
         if existing_user:
             raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST, detail="Email already exists"
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=AuthErrorEnum.email_exists,
             )
 
         encrypted_password = get_hashed_password(user.password)
@@ -47,17 +49,19 @@ class Auth:
         )
         if db_user is None:
             raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST, detail="Falsche E-Mail"
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=AuthErrorEnum.wrong_email,
             )
         hashed_pass = db_user.password
         if not verify_password(user_in.password, hashed_pass):
             raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST, detail="Falsches Passwort"
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=AuthErrorEnum.wrong_password,
             )
         if db_user.locked:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Account ist gesperrt. Bitte kontaktiere den Support.",
+                detail=AuthErrorEnum.account_locked,
             )
         existing_token = (
             db.query(models.TokenTable)
@@ -80,11 +84,11 @@ class Auth:
                 db.refresh(db_user)
                 raise HTTPException(
                     status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="Account wurde gesperrt aufgrund von zu vielen weiteren Loginversuchen.",
+                    detail=AuthErrorEnum.account_too_many_attempts,
                 )
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Bereits eingeloggt. Bei weiteren Versuchen wird dein Account gesperrt.",
+                detail=AuthErrorEnum.account_has_sessoin,
             )
 
         access = create_access_token(db_user.id)
@@ -186,7 +190,7 @@ class Auth:
     def get_current_user(token: str, db: Session):
         credentials_exception = HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Could not validate credentials",
+            detail=AuthErrorEnum.could_not_validate_credentials,
             headers={"WWW-Authenticate": "Bearer"},
         )
         try:
