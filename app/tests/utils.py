@@ -41,4 +41,3 @@ def token_required_no_op(func):
 app.dependency_overrides[jwt_bearer] = override_jwt_bearer
 
 client = TestClient(app)
-

@@ -1,6 +1,8 @@
 import datetime
 from pydantic import BaseModel
 
+from ..user.schemas import UserResponse
+
 
 class UserCreateReq(BaseModel):
     username: str
@@ -21,7 +23,7 @@ class LoginReq(BaseModel):
 class LoginRes(BaseModel):
     access_token: str
     refresh_token: str
-    user_id: int
+    user: UserResponse
 
 
 class LogoutRes(BaseModel):

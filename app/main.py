@@ -1,7 +1,8 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
-#from fastapi.staticfiles import StaticFiles
-#from fastapi.templating import Jinja2Templates
+
+# from fastapi.staticfiles import StaticFiles
+# from fastapi.templating import Jinja2Templates
 from fastapi.requests import Request
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -22,8 +23,8 @@ app = FastAPI()
 # app.mount("/assets", StaticFiles(directory="../frontend/dist/assets"), name="assets")
 
 origins = [
-   '*'
-     # "http://localhost:5173",
+    "*"
+    # "http://localhost:5173",
     # "localhost:5173",
     # "http://localhost:8000",
     # "localhost:5173",
@@ -39,13 +40,19 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,  # Allow these origins
     allow_credentials=True,  # Allow cookies to be sent in requests
-    allow_methods=["*"],     # Allow all HTTP methods (GET, POST, etc.)
-    allow_headers=["*"],     # Allow all headers
+    allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
+    allow_headers=["*"],  # Allow all headers
 )
 
 
-print ("environment", Config.ENVIRONMENT, Config.YOUR_DOMAIN, Config.STRIPE_KEY, Config.DATABASE_URL)
-    
+print(
+    "environment",
+    Config.ENVIRONMENT,
+    Config.YOUR_DOMAIN,
+    Config.STRIPE_KEY,
+    Config.DATABASE_URL,
+)
+
 Base.metadata.create_all(bind=engine)
 
 
@@ -84,15 +91,18 @@ app.include_router(payment.router)
 
 @app.get("/api/check-env")
 def read_root():
-    print ("environment", Config.ENVIRONMENT, Config.YOUR_DOMAIN, Config.STRIPE_KEY)
+    print("environment", Config.ENVIRONMENT, Config.YOUR_DOMAIN, Config.STRIPE_KEY)
     return {
         "environment": Config.ENVIRONMENT,
         "stripe_key": Config.STRIPE_KEY,
         "your_domain": Config.YOUR_DOMAIN,
     }
 
+
 # Defines a route handler for `/*` essentially.
 # NOTE: this needs to be the last route defined b/c it's a catch all route
 @app.get("/{rest_of_path:path}")
 async def react_app(req: Request, rest_of_path: str):
-    return {"request": "Hello this is the REST API for SmartZubi"} #templates.TemplateResponse("index.html", {"request": req})
+    return {
+        "request": "Hello this is the REST API for SmartZubi"
+    }  # templates.TemplateResponse("index.html", {"request": req})

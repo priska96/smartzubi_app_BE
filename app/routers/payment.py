@@ -23,6 +23,7 @@ router = APIRouter(prefix="/api/payment", tags=["payment"])
 
 stripe.api_key = Config.STRIPE_KEY
 
+
 @router.post("/create-intent", response_model=PaymentIntentRes)
 @token_required
 async def create_intent(

@@ -91,7 +91,11 @@ class User:
     def count_points_multiple_choice_question(
         answered, score, db, selected_answer_ids, question_points
     ):
-        correctly_answered = db.query(models.Answer).filter(models.Answer.id.in_(answered.answer_ids)).all()
+        correctly_answered = (
+            db.query(models.Answer)
+            .filter(models.Answer.id.in_(answered.answer_ids))
+            .all()
+        )
 
         for answer_db in correctly_answered:
             if answer_db.correct:
@@ -102,9 +106,11 @@ class User:
         return score
 
     def count_points_ordering_question(answered, db, score, ordered_pairs):
-        correct_order = db.query(models.Answer).filter(
-            models.Answer.question_id == answered.question_id
-        ).all()
+        correct_order = (
+            db.query(models.Answer)
+            .filter(models.Answer.question_id == answered.question_id)
+            .all()
+        )
         for answer_db in correct_order:
             answer_db: models.Answer
             str_answer_id = str(answer_db.id)
@@ -125,9 +131,11 @@ class User:
         return score
 
     def count_points_calculation_question(answered, db, score, ordered_pairs):
-        correct_order = db.query(models.Answer).filter(
-            models.Answer.question_id == answered.question_id
-        ).all()
+        correct_order = (
+            db.query(models.Answer)
+            .filter(models.Answer.question_id == answered.question_id)
+            .all()
+        )
 
         for answer_db in correct_order:
             answer_db: models.Answer
@@ -154,8 +162,9 @@ class User:
 
     def get_user_exam(user_exam_id: int, db: Session):
         user_exam_db = db.get(models.UserExam, user_exam_id)
-        print("user_exam_db.ordered_answer_pairs ", db.query(models.UserExam).all())  
-        return UserExamRes(
+        print("user_exam_db.ordered_answer_pairs ", db.query(models.UserExam).all())
+        return (
+            UserExamRes(
                 id=user_exam_db.id,
                 exam_id=user_exam_db.exam_id,
                 created_at=user_exam_db.created_at,
@@ -168,8 +177,10 @@ class User:
                     else []
                 ),
                 ordered_answer_pairs=json.loads(user_exam_db.ordered_answer_pairs),
-            ) if user_exam_db.ordered_answer_pairs else {}
-        
+            )
+            if user_exam_db.ordered_answer_pairs
+            else {}
+        )
 
     def get_all_user_exams(user_id: int, db: Session):
         user_exams_db = (

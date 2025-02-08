@@ -5,7 +5,7 @@ from typing import Union, Any
 from jose import jwt
 
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 365  # 365 days
-REFRESH_ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 365 *1.5  # 1.5 years
+REFRESH_ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 365 * 1.5  # 1.5 years
 ALGORITHM = "HS256"
 JWT_SECRET_KEY = "narscbjim@$@&^@&%^&RFghgjvbdsha"
 JWT_REFRESH_SECRET_KEY = "13ugfdfgh@#$%^@&jkl45678902"

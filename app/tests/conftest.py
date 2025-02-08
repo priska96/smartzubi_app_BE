@@ -1,4 +1,3 @@
-
 import pytest
 import os
 import json
@@ -37,7 +36,7 @@ def reset_database():
 
     with open(files[0], "r") as json_file:
         data = json.load(json_file)
-    with TestingSessionLocal() as db:    
+    with TestingSessionLocal() as db:
         try:
             Exam.create(ExamCreateReq(**data), db)
             user_exam_json = {
@@ -47,7 +46,7 @@ def reset_database():
                 "answered_questions": [
                     {
                         "question_id": 1,
-                        "answer_ids": [1,2],
+                        "answer_ids": [1, 2],
                         "answer_pair": {},
                         "type": "multiple_choice",
                     },
@@ -60,7 +59,13 @@ def reset_database():
                     {
                         "question_id": 3,
                         "answer_ids": [],
-                        "answer_pair": {"6": "2", "7": "1", "8": "3", "9": "5", "10": "4"},
+                        "answer_pair": {
+                            "6": "2",
+                            "7": "1",
+                            "8": "3",
+                            "9": "5",
+                            "10": "4",
+                        },
                         "type": "ordering",
                     },
                     {

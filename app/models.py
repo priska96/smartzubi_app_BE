@@ -27,6 +27,7 @@ class Exam(Base):
     questions: Mapped[List["Question"]] = relationship(back_populates="exam")
     google_drive_link = Column(String, nullable=True)
 
+
 class TypeEnum(Enum):
     multiple_choice = "multiple_choice"
     ordering = "ordering"

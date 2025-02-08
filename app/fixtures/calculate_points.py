@@ -1,10 +1,11 @@
 import json
 import sys
 
+
 def calculate_test_score(json_file_path):
     try:
         # Load the JSON file
-        with open(json_file_path, 'r') as file:
+        with open(json_file_path, "r") as file:
             data = json.load(file)
 
         # Initialize total score
@@ -17,7 +18,9 @@ def calculate_test_score(json_file_path):
                 if answer.get("correct"):
                     question_points += answer.get("points", 0)
 
-            print(f"The points for question {question.get('title')} are: {question_points}")
+            print(
+                f"The points for question {question.get('title')} are: {question_points}"
+            )
             total_score += question_points
 
         print(f"The total score for the test is: {total_score}")
@@ -25,6 +28,7 @@ def calculate_test_score(json_file_path):
 
     except Exception as e:
         print(f"An error occurred: {e}")
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

@@ -14,6 +14,7 @@ class UserExam(BaseModel):
     selected_answer_ids: str
     ordered_answer_pairs: str
 
+
 class UserResponse(BaseModel):
     id: int
     username: str
@@ -26,6 +27,10 @@ class UserResponse(BaseModel):
 
     class ConfigDict:
         from_attributes = True
+
+    class Meta:
+        orm_model = models.User
+
 
 class UserPatchReq(BaseModel):
     email: Optional[str] = None

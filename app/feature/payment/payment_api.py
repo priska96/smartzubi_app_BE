@@ -13,7 +13,7 @@ from .schemas import (
 from ... import models
 from ...envConfig import Config
 
-stripe.api_key = Config.STRIPE_KEY 
+stripe.api_key = Config.STRIPE_KEY
 
 
 class Payment:

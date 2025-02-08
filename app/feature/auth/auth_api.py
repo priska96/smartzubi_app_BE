@@ -1,6 +1,8 @@
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 from jose import JWTError
+
+from ..user.schemas import UserResponse
 from .utils import (
     create_access_token,
     create_refresh_token,
@@ -94,7 +96,19 @@ class Auth:
         db.add(token_db)
         db.commit()
         db.refresh(token_db)
-        return LoginRes(access_token=access, refresh_token=refresh, user_id=db_user.id)
+
+        user = UserResponse(
+            id=db_user.id,
+            username=db_user.username,
+            email=db_user.email,
+            stripe_customer_id=db_user.stripe_customer_id,
+            is_paying=db_user.is_paying,
+            login_attempts=db_user.login_attempts,
+            locked=db_user.locked,
+            user_exams=db_user.user_exams,
+        )
+        print("user", type(user), user)
+        return LoginRes(access_token=access, refresh_token=refresh, user=user)
 
     def logout(access_token: str, db: Session):
         payload = decodeJWT(access_token)
