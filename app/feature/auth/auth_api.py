@@ -1,9 +1,10 @@
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 from jose import JWTError
+import json
 
 
-from ..user.schemas import UserResponse
+from ..user.schemas import UserResponse, UserExamRes
 from .utils import (
     create_access_token,
     create_refresh_token,
@@ -101,6 +102,23 @@ class Auth:
         db.commit()
         db.refresh(token_db)
 
+        user_exams = [
+            UserExamRes(
+                id=x.id,
+                exam_id=x.exam_id,
+                created_at=x.created_at,
+                title=x.title,
+                score=x.score,
+                score_total=x.score_total,
+                selected_answer_ids=(
+                    x.selected_answer_ids.split(", ") if x.selected_answer_ids else []
+                ),
+                ordered_answer_pairs=(
+                    json.loads(x.ordered_answer_pairs) if x.ordered_answer_pairs else {}
+                ),
+            )
+            for x in db_user.user_exams
+        ]
         user = UserResponse(
             id=db_user.id,
             username=db_user.username,
@@ -109,7 +127,7 @@ class Auth:
             is_paying=db_user.is_paying,
             login_attempts=db_user.login_attempts,
             locked=db_user.locked,
-            user_exams=db_user.user_exams,
+            user_exams=user_exams,
         )
         return LoginRes(access_token=access, refresh_token=refresh, user=user)
 
@@ -147,7 +165,9 @@ class Auth:
         return LogoutRes(message="Logout Successfully")
 
     def refresh_access_token_via_refresh_token(obj_in: TokenRefreshReq, db: Session):
-        print("refresh token for: ", obj_in.user_id, "with token: ", obj_in.refresh_token)
+        print(
+            "refresh token for: ", obj_in.user_id, "with token: ", obj_in.refresh_token
+        )
         if not obj_in.refresh_token:
             return HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,

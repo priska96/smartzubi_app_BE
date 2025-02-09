@@ -31,7 +31,7 @@ class Payment:
     def create_client_secret(obj_in: PaymentIntentReq, db: Session):
 
         customer_id = Payment.get_or_create_customer(obj_in.user_id, db)
-        
+
         intent = stripe.PaymentIntent.create(
             # To allow saving and retrieving payment methods, provide the Customer ID.
             customer=customer_id,
@@ -86,7 +86,7 @@ class Payment:
             prices = stripe.Price.list(
                 lookup_keys=obj_in.lookup_key, expand=["data.product"]
             )
-            
+
             products = []
 
             for item in prices["data"]:
