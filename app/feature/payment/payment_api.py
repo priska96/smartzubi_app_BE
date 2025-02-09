@@ -29,11 +29,9 @@ class Payment:
         return customer.id
 
     def create_client_secret(obj_in: PaymentIntentReq, db: Session):
-        print("create client secret")
-        print(obj_in)
 
         customer_id = Payment.get_or_create_customer(obj_in.user_id, db)
-        print(customer_id)
+        
         intent = stripe.PaymentIntent.create(
             # To allow saving and retrieving payment methods, provide the Customer ID.
             customer=customer_id,
@@ -51,9 +49,7 @@ class Payment:
             prices = stripe.Price.list(
                 lookup_keys=[obj_in.lookup_key], expand=["data.product"]
             )
-            print(prices)
 
-            print(Config.YOUR_DOMAIN)
             success_url = (
                 Config.YOUR_DOMAIN + "/login"
                 if prices.data[0].recurring == None
@@ -90,11 +86,10 @@ class Payment:
             prices = stripe.Price.list(
                 lookup_keys=obj_in.lookup_key, expand=["data.product"]
             )
-            print(prices)
+            
             products = []
 
             for item in prices["data"]:
-                print("reccuring" in item.keys())
                 product_info = {
                     "product_id": item["product"]["id"],
                     "product_name": item["product"]["name"],

@@ -31,7 +31,6 @@ async def create_intent(
     db: Session = Depends(get_db),
     dependencies=Depends(jwt_bearer),
 ):
-    print("create intent", obj_in)
     return Payment.create_client_secret(obj_in, db)
 
 

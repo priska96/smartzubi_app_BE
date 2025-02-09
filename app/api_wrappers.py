@@ -13,7 +13,6 @@ def token_required(func):
             print("skipping token_required")
             return await func(*args, **kwargs)
         access_token = kwargs["dependencies"]
-        print("##################", kwargs)
         payload = decodeJWT(access_token)
         user_id = payload["sub"]
         data = (
@@ -38,13 +37,11 @@ def paying_member_required(func):
         if "pytest" in sys.modules:
             print("skipping paying_member_required")
             return await func(*args, **kwargs)
-        print("######## paying member ##########", kwargs)
         payload = decodeJWT(access_token)
         user_id = payload["sub"]
         data = (
             kwargs["db"].query(UserTable).filter_by(id=user_id, is_paying=True).first()
         )
-        print(data)
         if data:
             return await func(*args, **kwargs)
 

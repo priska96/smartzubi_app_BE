@@ -17,14 +17,12 @@ from app.feature.user.schemas import (
 
 class User:
     def get(user_id: int, db: Session):
-        print("db", db)
         maybe_user = db.get(models.User, user_id)
         if not maybe_user:
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail=f"User with id: {user_id} not found",
             )
-        print("maybe_user", maybe_user)
         return db.get(models.User, user_id)
 
     def update(user_id: int, obj_in: UserPatchReq, db: Session):
@@ -60,9 +58,9 @@ class User:
                     answered, db, score, ordered_pairs
                 )
         selected_ids_str = ", ".join([str(i) for i in selected_answer_ids])
-        print(selected_ids_str)
+        # print(selected_ids_str)
 
-        print("##########final score:", score)
+        # print("##########final score:", score)
         user_exam_db = models.UserExam(
             **{
                 "user_id": obj_in.user_id,
@@ -75,7 +73,7 @@ class User:
                 "ordered_answer_pairs": json.dumps(ordered_pairs),
             }
         )
-        print("user_exam_id", user_exam_db.id)
+        # print("user_exam_id", user_exam_db.id)
         db.add(user_exam_db)
         db.commit()
         db.refresh(user_exam_db)
@@ -100,9 +98,9 @@ class User:
         for answer_db in correctly_answered:
             if answer_db.correct:
                 score += answer_db.points
-                print("answer correct. curr points: ", score)
+                # print("answer correct. curr points: ", score)
             selected_answer_ids.append(answer_db.id)
-        print("points", question_points)
+        # print("points", question_points)
         return score
 
     def count_points_ordering_question(answered, db, score, ordered_pairs):
@@ -114,19 +112,19 @@ class User:
         for answer_db in correct_order:
             answer_db: models.Answer
             str_answer_id = str(answer_db.id)
-            print(
-                "answer_pair: ",
-                answered.answer_pair,
-                answered.answer_pair[str_answer_id],
-            )
-            print("answer_db.correct_order: ", answer_db.correct_order)
+            # print(
+            #     "answer_pair: ",
+            #     answered.answer_pair,
+            #     answered.answer_pair[str_answer_id],
+            # )
+            # print("answer_db.correct_order: ", answer_db.correct_order)
             order_user = int(answered.answer_pair[str(answer_db.id)])
             if (
                 order_user == answer_db.correct_order
             ):  # user's order is same as correct order
-                print("correct order")
+                # print("correct order")
                 score += answer_db.points
-                print("##########current score:", score)
+                # print("##########current score:", score)
             ordered_pairs[answer_db.id] = answered.answer_pair[str_answer_id]
         return score
 
@@ -140,11 +138,11 @@ class User:
         for answer_db in correct_order:
             answer_db: models.Answer
             str_answer_id = str(answer_db.id)
-            print(
-                "answer_pair: ",
-                answered.answer_pair,
-                answered.answer_pair[str_answer_id],
-            )
+            # print(
+            #     "answer_pair: ",
+            #     answered.answer_pair,
+            #     answered.answer_pair[str_answer_id],
+            # )
             cleaned_answer_user = answered.answer_pair[str(answer_db.id)].translate(
                 {ord(c): None for c in string.whitespace}
             )
@@ -154,15 +152,15 @@ class User:
             if (
                 cleaned_answer_user == cleaned_answer
             ):  # user's answer is same as correct answer
-                print("correct calculation")
+                # print("correct calculation")
                 score += answer_db.points
-                print("##########current score:", score)
+                # print("##########current score:", score)
             ordered_pairs[answer_db.id] = answered.answer_pair[str_answer_id]
         return score
 
     def get_user_exam(user_exam_id: int, db: Session):
         user_exam_db = db.get(models.UserExam, user_exam_id)
-        print("user_exam_db.ordered_answer_pairs ", db.query(models.UserExam).all())
+        # print("user_exam_db.ordered_answer_pairs ", db.query(models.UserExam).all())
         return (
             UserExamRes(
                 id=user_exam_db.id,

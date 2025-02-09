@@ -45,14 +45,6 @@ app.add_middleware(
 )
 
 
-print(
-    "environment",
-    Config.ENVIRONMENT,
-    Config.YOUR_DOMAIN,
-    Config.STRIPE_KEY,
-    Config.DATABASE_URL,
-)
-
 Base.metadata.create_all(bind=engine)
 
 
@@ -91,7 +83,6 @@ app.include_router(payment.router)
 
 @app.get("/api/check-env")
 def read_root():
-    print("environment", Config.ENVIRONMENT, Config.YOUR_DOMAIN, Config.STRIPE_KEY)
     return {
         "environment": Config.ENVIRONMENT,
         "stripe_key": Config.STRIPE_KEY,

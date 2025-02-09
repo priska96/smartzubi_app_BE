@@ -25,7 +25,6 @@ router = APIRouter(prefix="/api/user", tags=["user"])
 async def get_user(
     user_id: int, db: Session = Depends(get_db), dependencies=Depends(jwt_bearer)
 ) -> UserResponse:
-    print("gere", db)
     return User.get(user_id, db)
 
 
@@ -47,7 +46,6 @@ async def create_exam_for_user(
     db: Session = Depends(get_db),
     dependencies=Depends(jwt_bearer),
 ):
-    print("stasrt")
     return User.create_user_exam(obj_in, db)
 
 

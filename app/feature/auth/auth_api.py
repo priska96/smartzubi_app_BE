@@ -111,7 +111,6 @@ class Auth:
             locked=db_user.locked,
             user_exams=db_user.user_exams,
         )
-        print("user", type(user), user)
         return LoginRes(access_token=access, refresh_token=refresh, user=user)
 
     def logout(access_token: str, db: Session):
@@ -148,6 +147,7 @@ class Auth:
         return LogoutRes(message="Logout Successfully")
 
     def refresh_access_token_via_refresh_token(obj_in: TokenRefreshReq, db: Session):
+        print("refresh token for: ", obj_in.user_id, "with token: ", obj_in.refresh_token)
         if not obj_in.refresh_token:
             return HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
@@ -159,7 +159,7 @@ class Auth:
                 .filter(models.TokenTable.user_id == user_id)
                 .first()
             )
-            token_db.status = False
+            setattr(token_db, "status", False)
             db.add(token_db)
             db.commit()
             db.refresh(token_db)
