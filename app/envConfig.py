@@ -24,8 +24,8 @@ class Config:
     REFRESH_ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 365 * 1.5  # 1.5 years
     ALGORITHM = "HS256"
     JWT_SECRET_KEY = os.environ.get(
-        "JWT_SECRET_KEY", "narscbjim@$@&^@&%^&RFghgjvbdsha"
+        "JWT_SECRET_KEY", os.getenv("JWT_SECRET_KEY")
     )  # os.getenv("JWT_SECRET_KEY")
     JWT_REFRESH_SECRET_KEY = os.environ.get(
-        "JWT_REFRESH_SECRET_KEY", "13ugfdfgh@#$%^@&jkl45678902"
+        "JWT_REFRESH_SECRET_KEY", os.getenv("JWT_REFRESH_SECRET_KEY")
     )  # os.getenv("JWT_REFRESH_SECRET_KEY")
