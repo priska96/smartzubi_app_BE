@@ -23,16 +23,16 @@ app = FastAPI()
 # app.mount("/assets", StaticFiles(directory="../frontend/dist/assets"), name="assets")
 
 origins = [
-    "*"
-    # "http://localhost:5173",
-    # "localhost:5173",
-    # "http://localhost:8000",
-    # "localhost:5173",
-    # "http://0.0.0.0:8000",
-    # "0.0.0.0:5173",
-    # "http://192.168.178.43:8000",
-    # "192.168.178.43:8000",
-    # "http://testserver",
+    "https://smartzubi-frontend-f46741e7a210.herokuapp.com",
+    "http://localhost:5173",
+    "localhost:5173",
+    "http://localhost:8000",
+    "localhost:5173",
+    "http://0.0.0.0:8000",
+    "0.0.0.0:5173",
+    "http://192.168.178.43:8000",
+    "192.168.178.43:8000",
+    "http://testserver",
 ]
 
 
