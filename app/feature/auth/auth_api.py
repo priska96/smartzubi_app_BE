@@ -126,7 +126,7 @@ class Auth:
             is_paying=db_user.is_paying,
             login_attempts=db_user.login_attempts,
             locked=db_user.locked,
-            user_exams=user_exams,
+            user_exams=[]
         )
         return LoginRes(access_token=access, refresh_token=refresh, user=user)
 
