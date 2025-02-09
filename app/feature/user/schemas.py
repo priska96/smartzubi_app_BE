@@ -13,6 +13,12 @@ class UserExam(BaseModel):
     score_total: int
     selected_answer_ids: str
     ordered_answer_pairs: str
+    
+    class ConfigDict:
+        from_attributes = True
+
+    class Meta:
+        orm_model = models.UserExam
 
 
 class UserResponse(BaseModel):

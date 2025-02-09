@@ -1,7 +1,6 @@
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 from jose import JWTError
-import json
 
 
 from ..user.schemas import UserResponse, UserExamRes
@@ -110,12 +109,9 @@ class Auth:
                 title=x.title,
                 score=x.score,
                 score_total=x.score_total,
-                selected_answer_ids=(
-                    x.selected_answer_ids.split(", ") if x.selected_answer_ids else []
-                ),
-                ordered_answer_pairs=(
-                    json.loads(x.ordered_answer_pairs) if x.ordered_answer_pairs else {}
-                ),
+                selected_answer_ids=
+                    x.selected_answer_ids,
+                ordered_answer_pairs=x.ordered_answer_pairs
             )
             for x in db_user.user_exams
         ]
