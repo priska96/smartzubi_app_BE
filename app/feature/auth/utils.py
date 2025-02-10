@@ -3,6 +3,8 @@ import bcrypt
 from datetime import datetime, timedelta, UTC
 from typing import Union, Any
 from jose import jwt
+import smtplib
+from email.mime.text import MIMEText
 
 from ...envConfig import Config
 
@@ -47,3 +49,17 @@ def create_refresh_token(subject: Union[Any], expires_delta: int = None) -> str:
     encoded_jwt = jwt.encode(to_encode, Config.JWT_REFRESH_SECRET_KEY, Config.ALGORITHM)
 
     return encoded_jwt
+
+
+def send_email(to_email: str, subject: str, content: str):
+    sender_email = ""
+    sender_password = ""
+
+    message = MIMEText(content)
+    message["Subject"] = subject
+    message["From"] = sender_email
+    message["To"] = to_email
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(sender_email, sender_password)
+        server.sendmail(sender_email, to_email, message.as_string())

@@ -13,7 +13,7 @@ class UserExam(BaseModel):
     score_total: int
     selected_answer_ids: str
     ordered_answer_pairs: str
-    
+
     class ConfigDict:
         from_attributes = True
 
@@ -27,7 +27,7 @@ class UserResponse(BaseModel):
     email: str
     is_paying: bool
     stripe_customer_id: Optional[str] = ""
-    user_exams: Union[List[UserExam], None] = []
+    # user_exams: Union[List[UserExam], None] = []
     login_attempts: int
     locked: bool
 

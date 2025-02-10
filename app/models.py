@@ -73,7 +73,9 @@ class User(Base):
     password = Column(LargeBinary(100), nullable=False)
     is_paying = Column(Boolean, server_default="FALSE")
     stripe_customer_id = Column(String(300), nullable=True)
-    user_exams: Mapped[List["UserExam"]] = relationship(back_populates="user")
+    user_exams: Mapped[List["UserExam"]] = relationship(
+        back_populates="user", lazy="joined"
+    )
     device: Mapped["Device"] = relationship(back_populates="user")
     login_attempts = Column(Integer, server_default="0", nullable=False)
     locked = Column(Boolean, server_default="FALSE")

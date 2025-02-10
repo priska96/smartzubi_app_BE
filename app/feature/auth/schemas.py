@@ -1,12 +1,12 @@
 import datetime
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
 
 from ..user.schemas import UserResponse
 
 
 class UserCreateReq(BaseModel):
     username: str
-    email: str
+    email: EmailStr
     password: str
 
 
@@ -15,7 +15,7 @@ class UserCreateRes(BaseModel):
 
 
 class LoginReq(BaseModel):
-    email: str
+    email: EmailStr
     password: str
     userAgent: str
 
@@ -31,7 +31,7 @@ class LogoutRes(BaseModel):
 
 
 class ChangePasswordReq(BaseModel):
-    email: str
+    email: EmailStr
     old_password: str
     new_password: str
 
@@ -65,3 +65,7 @@ class TokenData(BaseModel):
 
 class RefreshTokenRequest(BaseModel):
     refresh_token: str
+
+
+class ForgotPasswordReq(BaseModel):
+    email: EmailStr

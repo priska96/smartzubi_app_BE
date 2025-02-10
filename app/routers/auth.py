@@ -13,6 +13,7 @@ from ..feature.auth.schemas import (
     UserCreateRes,
     LoginReq,
     LoginRes,
+    ForgotPasswordReq,
 )
 
 # Create an APIRouter instance
@@ -53,3 +54,9 @@ async def get_refresh_token(
     dependencies=Depends(jwt_bearer),
 ):
     return Auth.refresh_access_token_via_refresh_token(token_refresh, db)
+
+
+@router.post("/forgot-password", status_code=200)
+async def forgot_password(forgot_pw: ForgotPasswordReq, db: Session = Depends(get_db)):
+    print("forgot_pw")
+    return Auth.forgot_password(forgot_pw, db)

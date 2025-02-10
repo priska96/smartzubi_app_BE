@@ -1,3 +1,4 @@
+from random import randint
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 from jose import JWTError
@@ -8,6 +9,7 @@ from .utils import (
     create_access_token,
     create_refresh_token,
     get_hashed_password,
+    send_email,
     verify_password,
 )
 from .auth_bearer import decodeJWT, decodeRefreshJWT, jwt_bearer
@@ -21,6 +23,7 @@ from .schemas import (
     TokenRefreshRes,
     UserCreateReq,
     UserCreateRes,
+    ForgotPasswordReq,
 )
 from ... import models
 import datetime
@@ -109,7 +112,7 @@ class Auth:
                 title=x.title,
                 score=x.score,
                 score_total=x.score_total,
-                    selected_answer_ids=(
+                selected_answer_ids=(
                     x.selected_answer_ids.split(", ") if x.selected_answer_ids else []
                 ),
                 ordered_answer_pairs=(
@@ -126,7 +129,7 @@ class Auth:
             is_paying=db_user.is_paying,
             login_attempts=db_user.login_attempts,
             locked=db_user.locked,
-            user_exams=[]
+            user_exams=[],
         )
         return LoginRes(access_token=access, refresh_token=refresh, user=user)
 
@@ -226,3 +229,23 @@ class Auth:
         if user is None:
             raise credentials_exception
         return user
+
+    def forgot_password(request: ForgotPasswordReq, db: Session):
+        # user = db.query(models.User).filter(models.User.email == request.email).first()
+        # if not user:
+        #     raise HTTPException(status_code=404, detail="User not found")
+
+        # # Generate a new random password
+        # new_password = f"NewPass{randint(1000, 9999)}"
+        # encrypted_password = get_hashed_password(new_password)
+        # # Update the user's password in the database
+        # user.password = encrypted_password
+        # db.add(user)
+        # db.commit()
+        # db.refresh(user)
+
+        # # Send the new password via email
+        # email_content = f"Hallo {user.username},\n\nDein neues Passwort is: {new_password}\n\nDenke daran, es zur Sicherheit zu ändern."
+        send_email(request.email, "Password Reset Request", "TEST")
+
+        return {"message": "A new password has been sent to your email."}
