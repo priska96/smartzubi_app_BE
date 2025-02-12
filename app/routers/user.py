@@ -39,7 +39,7 @@ async def update_user(
     "/{user_id}/exam/create", status_code=200, response_model=UserExamCreateRes
 )
 @token_required
-@paying_member_required
+#@paying_member_required
 async def create_exam_for_user(
     user_id: int,
     obj_in: UserExamCreateReq,
@@ -55,7 +55,7 @@ async def create_exam_for_user(
     response_model=UserExamRes,
 )
 @token_required
-@paying_member_required
+#@paying_member_required
 async def get_user_exam(
     user_id: int,
     user_exam_id: int,
@@ -67,7 +67,7 @@ async def get_user_exam(
 
 @router.get("/{user_id}/exam", status_code=200, response_model=List[UserExamRes])
 @token_required
-@paying_member_required
+#@paying_member_required
 async def get_user_all_user_exams(
     user_id: int, db: Session = Depends(get_db), dependencies=Depends(jwt_bearer)
 ):

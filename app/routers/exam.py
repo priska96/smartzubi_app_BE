@@ -33,7 +33,7 @@ async def create_exam(obj_in: ExamCreateReq, db: Session = Depends(get_db)):
 
 @router.get("/exam/{exam_id}", status_code=200, response_model=ExamGetRes)
 @token_required
-@paying_member_required
+#@paying_member_required
 async def get_exam(
     exam_id: int, db: Session = Depends(get_db), dependencies=Depends(jwt_bearer)
 ):
@@ -42,7 +42,7 @@ async def get_exam(
 
 @router.get("/exam", status_code=200, response_model=List[ExamGetRes])
 @token_required
-@paying_member_required
+#@paying_member_required
 async def get_all_exams(
     db: Session = Depends(get_db), dependencies=Depends(jwt_bearer)
 ):

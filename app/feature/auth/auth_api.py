@@ -35,7 +35,7 @@ class Auth:
         if existing_user:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail=AuthErrorEnum.email_exists,
+                detail=AuthErrorEnum.email_exists.value,
             )
 
         encrypted_password = get_hashed_password(user.password)
@@ -53,18 +53,18 @@ class Auth:
         if db_user is None:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail=AuthErrorEnum.wrong_email,
+                detail=AuthErrorEnum.wrong_email.value,
             )
         hashed_pass = db_user.password
         if not verify_password(user_in.password, hashed_pass):
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail=AuthErrorEnum.wrong_password,
+                detail=AuthErrorEnum.wrong_password.value,
             )
         if db_user.locked:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail=AuthErrorEnum.account_locked,
+                detail=AuthErrorEnum.account_locked.value,
             )
         existing_token = (
             db.query(models.TokenTable)
@@ -87,11 +87,11 @@ class Auth:
                 db.refresh(db_user)
                 raise HTTPException(
                     status_code=status.HTTP_400_BAD_REQUEST,
-                    detail=AuthErrorEnum.account_too_many_attempts,
+                    detail=AuthErrorEnum.account_too_many_attempts.value,
                 )
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail=AuthErrorEnum.account_has_sessoin,
+                detail=AuthErrorEnum.account_has_sessoin.value,
             )
 
         access = create_access_token(db_user.id)
@@ -212,7 +212,7 @@ class Auth:
     def get_current_user(token: str, db: Session):
         credentials_exception = HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail=AuthErrorEnum.could_not_validate_credentials,
+            detail=AuthErrorEnum.could_not_validate_credentials.value,
             headers={"WWW-Authenticate": "Bearer"},
         )
         try:
