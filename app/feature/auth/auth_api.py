@@ -74,35 +74,44 @@ class Auth:
             )
             .first()
         )
-        if existing_token and db_user.email != "priska2@test.de":  # active session
-            db_user.login_attempts += 1
-            db.add(db_user)
-            db.commit()
-            db.refresh(db_user)
-            print("login attempts", db_user.login_attempts)
-            if db_user.login_attempts > 3:
-                db_user.locked = True
-                db.add(db_user)
-                db.commit()
-                db.refresh(db_user)
-                raise HTTPException(
-                    status_code=status.HTTP_400_BAD_REQUEST,
-                    detail=AuthErrorEnum.account_too_many_attempts.value,
-                )
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail=AuthErrorEnum.account_has_sessoin.value,
-            )
+        # todo: temporarily deactivated
+        # if existing_token and db_user.email != "priska2@test.de":  # active session
+        #     db_user.login_attempts += 1
+        #     db.add(db_user)
+        #     db.commit()
+        #     db.refresh(db_user)
+        #     print("login attempts", db_user.login_attempts)
+        #     if db_user.login_attempts > 3:
+        #         db_user.locked = True
+        #         db.add(db_user)
+        #         db.commit()
+        #         db.refresh(db_user)
+        #         raise HTTPException(
+        #             status_code=status.HTTP_400_BAD_REQUEST,
+        #             detail=AuthErrorEnum.account_too_many_attempts.value,
+        #         )
+        #     raise HTTPException(
+        #         status_code=status.HTTP_400_BAD_REQUEST,
+        #         detail=AuthErrorEnum.account_has_sessoin.value,
+        #     )
 
+        # todo_ temporarily overwrite currntly active session
         access = create_access_token(db_user.id)
         refresh = create_refresh_token(db_user.id)
+        if existing_token:
+            existing_token.access_token = access
+            existing_token.refresh_token = refresh
+            db.add(existing_token)
+            db.commit()
+            db.refresh(existing_token)
 
-        token_db = models.TokenTable(
-            user_id=db_user.id, access_token=access, refresh_token=refresh, status=True
-        )
-        db.add(token_db)
-        db.commit()
-        db.refresh(token_db)
+        else:
+            token_db = models.TokenTable(
+                user_id=db_user.id, access_token=access, refresh_token=refresh, status=True
+            )
+            db.add(token_db)
+            db.commit()
+            db.refresh(token_db)
 
         user_exams = [
             UserExamRes(
