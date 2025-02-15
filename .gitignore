@@ -175,4 +175,5 @@ cython_debug/
 
 # VSC
 .vscode/
-.DS_Store
+.DS_Store.env.dev
+.env.prod
